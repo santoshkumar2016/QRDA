@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RetrieveMultipleValueSetsResponse xmlns="urn:ihe:iti:svs:2008">
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.1542" displayName="Additional evaluation for depression - adolescent" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="10197000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric interview and evaluation (procedure)"/>
+            <Concept code="10997001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric evaluation of patient for testimentary capacity with report (procedure)"/>
+            <Concept code="165171009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Initial psychiatric evaluation (procedure)"/>
+            <Concept code="165190001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric evaluation for rehabilitation (procedure)"/>
+            <Concept code="370803007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation of psychosocial impact on plan of care (procedure)"/>
+            <Concept code="38756009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric evaluation of patient for criminal responsibility with report (procedure)"/>
+            <Concept code="428161000124109" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Standardized adolescent depression screening tool completed (situation)"/>
+            <Concept code="45392008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychologic evaluation or test procedure (procedure)"/>
+            <Concept code="79094001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Initial psychiatric interview with mental status and evaluation (procedure)"/>
+            <Concept code="90407005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation of psychiatric state of patient (procedure)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.1542</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.1545" displayName="Additional evaluation for depression - adult" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="10197000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric interview and evaluation (procedure)"/>
+            <Concept code="10997001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric evaluation of patient for testimentary capacity with report (procedure)"/>
+            <Concept code="165171009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Initial psychiatric evaluation (procedure)"/>
+            <Concept code="165190001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric evaluation for rehabilitation (procedure)"/>
+            <Concept code="370803007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation of psychosocial impact on plan of care (procedure)"/>
+            <Concept code="38756009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric evaluation of patient for criminal responsibility with report (procedure)"/>
+            <Concept code="428151000124107" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Standardized adult depression screening tool completed (situation)"/>
+            <Concept code="45392008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychologic evaluation or test procedure (procedure)"/>
+            <Concept code="79094001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Initial psychiatric interview with mental status and evaluation (procedure)"/>
+            <Concept code="90407005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation of psychiatric state of patient (procedure)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.1545</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.2452" displayName="Adolescent Depression Screening" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="73831-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.54" displayName="Adolescent depression screening assessment"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.2452</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.2449" displayName="Adult Depression Screening" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="73832-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.54" displayName="Adult depression screening assessment"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.2449</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.450" displayName="Bipolar Diagnosis" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="10875004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe mixed bipolar I disorder with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="10981006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe mixed bipolar I disorder with psychotic features (disorder)"/>
+            <Concept code="111485001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar I disorder in full remission (disorder)"/>
+            <Concept code="1196001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chronic bipolar II disorder, most recent episode major depressive (disorder)"/>
+            <Concept code="13313007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild bipolar disorder (disorder)"/>
+            <Concept code="13581000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar I disorder, single manic episode with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="13746004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar disorder (disorder)"/>
+            <Concept code="14495005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar I disorder, single manic episode without psychotic features (disorder)"/>
+            <Concept code="1499003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, single manic episode with postpartum onset (disorder)"/>
+            <Concept code="162004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe manic bipolar I disorder without psychotic features (disorder)"/>
+            <Concept code="16295005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar II disorder, most recent episode major depressive (disorder)"/>
+            <Concept code="16506000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar I disorder (disorder)"/>
+            <Concept code="17782008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode manic with catatonic features (disorder)"/>
+            <Concept code="191618007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, current episode manic (disorder)"/>
+            <Concept code="191620005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, currently manic, mild (disorder)"/>
+            <Concept code="191621009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, currently manic, moderate (disorder)"/>
+            <Concept code="191623007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, currently manic, severe, with psychosis (disorder)"/>
+            <Concept code="191625000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, currently manic, in full remission (disorder)"/>
+            <Concept code="191627008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, current episode depression (disorder)"/>
+            <Concept code="191629006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, currently depressed, mild (disorder)"/>
+            <Concept code="191630001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, currently depressed, moderate (disorder)"/>
+            <Concept code="191632009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, currently depressed, severe, with psychosis (disorder)"/>
+            <Concept code="191634005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, currently depressed, in full remission (disorder)"/>
+            <Concept code="191636007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar affective disorder (disorder)"/>
+            <Concept code="191638008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar affective disorder, mild (disorder)"/>
+            <Concept code="191639000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar affective disorder, moderate (disorder)"/>
+            <Concept code="191641004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar affective disorder, severe, with psychosis (disorder)"/>
+            <Concept code="191643001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar affective disorder, in full remission (disorder)"/>
+            <Concept code="192362008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar affective disorder, current episode mixed (disorder)"/>
+            <Concept code="19300006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="20960007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar II disorder, most recent episode major depressive with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="21900002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode depressed with catatonic features (disorder)"/>
+            <Concept code="22121000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depressed bipolar I disorder in full remission (disorder)"/>
+            <Concept code="22407005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar II disorder, most recent episode major depressive with catatonic features (disorder)"/>
+            <Concept code="231444002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Organic bipolar disorder (disorder)"/>
+            <Concept code="26203008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe depressed bipolar I disorder with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="26530004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar disorder with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="28663008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe manic bipolar I disorder with psychotic features (disorder)"/>
+            <Concept code="28884001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate bipolar I disorder, single manic episode (disorder)"/>
+            <Concept code="296.40" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar I disorder, most recent episode (or current) manic, unspecified"/>
+            <Concept code="296.41" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar I disorder, most recent episode (or current) manic, mild"/>
+            <Concept code="296.42" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar I disorder, most recent episode (or current) manic, moderate"/>
+            <Concept code="296.43" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar I disorder, most recent episode (or current) manic, severe, without mention of psychotic behavior"/>
+            <Concept code="296.44" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar I disorder, most recent episode (or current) manic, severe, specified as with psychotic behavior"/>
+            <Concept code="296.45" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar I disorder, most recent episode (or current) manic, in partial or unspecified remission"/>
+            <Concept code="296.46" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar I disorder, most recent episode (or current) manic, in full remission"/>
+            <Concept code="296.52" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar I disorder, most recent episode (or current) depressed, moderate"/>
+            <Concept code="296.80" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Bipolar disorder, unspecified"/>
+            <Concept code="29929003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode depressed with atypical features (disorder)"/>
+            <Concept code="30520009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar II disorder, most recent episode major depressive with psychotic features (disorder)"/>
+            <Concept code="30687003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar II disorder, most recent episode major depressive with postpartum onset (disorder)"/>
+            <Concept code="30935000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Manic bipolar I disorder in full remission (disorder)"/>
+            <Concept code="31446002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode hypomanic (disorder)"/>
+            <Concept code="33380008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe manic bipolar I disorder with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="34315001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar II disorder, most recent episode major depressive with melancholic features (disorder)"/>
+            <Concept code="3530005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, single manic episode, in full remission (disorder)"/>
+            <Concept code="35481005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar I disorder in remission (disorder)"/>
+            <Concept code="35846004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate bipolar II disorder, most recent episode major depressive (disorder)"/>
+            <Concept code="36583000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed bipolar I disorder in partial remission (disorder)"/>
+            <Concept code="371596008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder (disorder)"/>
+            <Concept code="371599001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar I disorder (disorder)"/>
+            <Concept code="371600003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar disorder (disorder)"/>
+            <Concept code="371604007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar II disorder (disorder)"/>
+            <Concept code="38368003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Schizoaffective disorder, bipolar type (disorder)"/>
+            <Concept code="40926005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate mixed bipolar I disorder (disorder)"/>
+            <Concept code="41552001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild bipolar I disorder, single manic episode (disorder)"/>
+            <Concept code="41832009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar I disorder, single manic episode with psychotic features (disorder)"/>
+            <Concept code="41836007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar disorder in full remission (disorder)"/>
+            <Concept code="43568002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar II disorder, most recent episode major depressive with atypical features (disorder)"/>
+            <Concept code="43769008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild mixed bipolar I disorder (disorder)"/>
+            <Concept code="4441000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar disorder with psychotic features (disorder)"/>
+            <Concept code="45479006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Manic bipolar I disorder in remission (disorder)"/>
+            <Concept code="46229002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe mixed bipolar I disorder without psychotic features (disorder)"/>
+            <Concept code="48937005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar II disorder, most recent episode hypomanic (disorder)"/>
+            <Concept code="49468007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depressed bipolar I disorder (disorder)"/>
+            <Concept code="49512000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depressed bipolar I disorder in partial remission (disorder)"/>
+            <Concept code="51637008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chronic bipolar I disorder, most recent episode depressed (disorder)"/>
+            <Concept code="53049002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar disorder without psychotic features (disorder)"/>
+            <Concept code="53607008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depressed bipolar I disorder in remission (disorder)"/>
+            <Concept code="54761006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe depressed bipolar I disorder with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="55516002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode manic with postpartum onset (disorder)"/>
+            <Concept code="5703000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar disorder in partial remission (disorder)"/>
+            <Concept code="59617007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe depressed bipolar I disorder with psychotic features (disorder)"/>
+            <Concept code="61403008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe depressed bipolar I disorder without psychotic features (disorder)"/>
+            <Concept code="63249007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Manic bipolar I disorder in partial remission (disorder)"/>
+            <Concept code="64731001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe mixed bipolar I disorder with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="65042007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode mixed with postpartum onset (disorder)"/>
+            <Concept code="66631006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate depressed bipolar I disorder (disorder)"/>
+            <Concept code="68569003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Manic bipolar I disorder (disorder)"/>
+            <Concept code="70546001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar disorder with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="71294008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild bipolar II disorder, most recent episode major depressive (disorder)"/>
+            <Concept code="71984005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild manic bipolar I disorder (disorder)"/>
+            <Concept code="73471000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode mixed with catatonic features (disorder)"/>
+            <Concept code="74686005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild depressed bipolar I disorder (disorder)"/>
+            <Concept code="75360000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, single manic episode, in remission (disorder)"/>
+            <Concept code="75752004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode depressed with melancholic features (disorder)"/>
+            <Concept code="78269000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, single manic episode, in partial remission (disorder)"/>
+            <Concept code="78640000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe manic bipolar I disorder with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="79584002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate bipolar disorder (disorder)"/>
+            <Concept code="81319007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar II disorder, most recent episode major depressive without psychotic features (disorder)"/>
+            <Concept code="82998009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate manic bipolar I disorder (disorder)"/>
+            <Concept code="83225003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar II disorder (disorder)"/>
+            <Concept code="85248005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar disorder in remission (disorder)"/>
+            <Concept code="86058007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar I disorder, single manic episode with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="87203005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, most recent episode depressed with postpartum onset (disorder)"/>
+            <Concept code="87950005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, single manic episode with catatonic features (disorder)"/>
+            <Concept code="9340000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Bipolar I disorder, single manic episode (disorder)"/>
+            <Concept code="F31.11" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Bipolar disorder, current episode manic without psychotic features, mild"/>
+            <Concept code="F31.12" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Bipolar disorder, current episode manic without psychotic features, moderate"/>
+            <Concept code="F31.13" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Bipolar disorder, current episode manic without psychotic features, severe"/>
+            <Concept code="F31.2" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Bipolar disorder, current episode manic severe with psychotic features"/>
+            <Concept code="F31.73" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Bipolar disorder, in partial remission, most recent episode manic"/>
+            <Concept code="F31.74" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Bipolar disorder, in full remission, most recent episode manic"/>
+            <Concept code="F31.9" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Bipolar disorder, unspecified"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.450</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.600.447:Bipolar Diagnosis ICD9),(2.16.840.1.113883.3.600.448:Bipolar Diagnosis ICD10),(2.16.840.1.113883.3.600.449:Bipolar Diagnosis SNOMED)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.145" displayName="Depression diagnosis" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="14183003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chronic major depressive disorder, single episode (disorder)"/>
+            <Concept code="15193003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="15639000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate major depression, single episode (disorder)"/>
+            <Concept code="18818009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate recurrent major depression (disorder)"/>
+            <Concept code="191610000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive episodes, mild (disorder)"/>
+            <Concept code="191611001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive episodes, moderate (disorder)"/>
+            <Concept code="191613003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive episodes, severe, with psychosis (disorder)"/>
+            <Concept code="191616006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent depression (disorder)"/>
+            <Concept code="191659001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Atypical depressive disorder (disorder)"/>
+            <Concept code="192080009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chronic depression (disorder)"/>
+            <Concept code="19527009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depression, single episode, in complete remission (disorder)"/>
+            <Concept code="19694002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Late onset dysthymia (disorder)"/>
+            <Concept code="20250007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode, with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="231504006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mixed anxiety and depressive disorder (disorder)"/>
+            <Concept code="231542000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depressive conduct disorder (disorder)"/>
+            <Concept code="2506003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Early onset dysthymia (disorder)"/>
+            <Concept code="25922000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder, single episode with postpartum onset (disorder)"/>
+            <Concept code="2618002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chronic recurrent major depressive disorder (disorder)"/>
+            <Concept code="268621008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive episodes (disorder)"/>
+            <Concept code="28475009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression with psychotic features (disorder)"/>
+            <Concept code="290.13" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Presenile dementia with depressive features"/>
+            <Concept code="290.21" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Senile dementia with depressive features"/>
+            <Concept code="290.43" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Vascular dementia, with depressed mood"/>
+            <Concept code="296.20" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, unspecified"/>
+            <Concept code="296.21" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, mild"/>
+            <Concept code="296.22" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, moderate"/>
+            <Concept code="296.23" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, severe, without mention of psychotic behavior"/>
+            <Concept code="296.24" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, severe, specified as with psychotic behavior"/>
+            <Concept code="296.25" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, in partial or unspecified remission"/>
+            <Concept code="296.26" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, in full remission"/>
+            <Concept code="296.30" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, unspecified"/>
+            <Concept code="296.31" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, mild"/>
+            <Concept code="296.32" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, moderate"/>
+            <Concept code="296.33" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, severe, without mention of psychotic behavior"/>
+            <Concept code="296.34" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, severe, specified as with psychotic behavior"/>
+            <Concept code="296.36" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, in full remission"/>
+            <Concept code="296.82" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Atypical depressive disorder"/>
+            <Concept code="298.0" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Depressive type psychosis"/>
+            <Concept code="300.4" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Dysthymic disorder"/>
+            <Concept code="301.12" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Chronic depressive personality disorder"/>
+            <Concept code="309.0" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Adjustment disorder with depressed mood"/>
+            <Concept code="309.1" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Prolonged depressive reaction"/>
+            <Concept code="309.28" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Adjustment disorder with mixed anxiety and depressed mood"/>
+            <Concept code="3109008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Secondary dysthymia early onset (disorder)"/>
+            <Concept code="311" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Depressive disorder, not elsewhere classified"/>
+            <Concept code="319768000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive disorder with melancholic features (disorder)"/>
+            <Concept code="320751009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depression, melancholic type (disorder)"/>
+            <Concept code="33078009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="35489007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depressive disorder (disorder)"/>
+            <Concept code="36170009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Secondary dysthymia late onset (disorder)"/>
+            <Concept code="36474008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression without psychotic features (disorder)"/>
+            <Concept code="36923009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depression, single episode (disorder)"/>
+            <Concept code="370143000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder (disorder)"/>
+            <Concept code="38451003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Primary dysthymia early onset (disorder)"/>
+            <Concept code="38694004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive disorder with atypical features (disorder)"/>
+            <Concept code="39809009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive disorder with catatonic features (disorder)"/>
+            <Concept code="40379007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild recurrent major depression (disorder)"/>
+            <Concept code="40568001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent brief depressive disorder (disorder)"/>
+            <Concept code="42925002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder, single episode with atypical features (disorder)"/>
+            <Concept code="430852001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode, with psychotic features (disorder)"/>
+            <Concept code="442057004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chronic depressive personality disorder (disorder)"/>
+            <Concept code="48589009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Minor depressive disorder (disorder)"/>
+            <Concept code="63778009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder, single episode with melancholic features (disorder)"/>
+            <Concept code="66344007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depression (disorder)"/>
+            <Concept code="67711008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Primary dysthymia late onset (disorder)"/>
+            <Concept code="69392006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder, single episode with catatonic features (disorder)"/>
+            <Concept code="71336009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive disorder with postpartum onset (disorder)"/>
+            <Concept code="73867007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression with psychotic features (disorder)"/>
+            <Concept code="75084000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression without psychotic features (disorder)"/>
+            <Concept code="75837004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mood disorder with depressive features due to general medical condition (disorder)"/>
+            <Concept code="76441001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode, without psychotic features (disorder)"/>
+            <Concept code="77486005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mood disorder with major depressive-like episode due to general medical condition (disorder)"/>
+            <Concept code="77911002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode, with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="78667006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Dysthymia (disorder)"/>
+            <Concept code="79298009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild major depression, single episode (disorder)"/>
+            <Concept code="81319007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe bipolar II disorder, most recent episode major depressive without psychotic features (disorder)"/>
+            <Concept code="83176005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Primary dysthymia (disorder)"/>
+            <Concept code="832007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate major depression (disorder)"/>
+            <Concept code="84760002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Schizoaffective disorder, depressive type (disorder)"/>
+            <Concept code="85080004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Secondary dysthymia (disorder)"/>
+            <Concept code="87512008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild major depression (disorder)"/>
+            <Concept code="F01.51" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Vascular dementia with behavioral disturbance"/>
+            <Concept code="F32.0" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, single episode, mild"/>
+            <Concept code="F32.1" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, single episode, moderate"/>
+            <Concept code="F32.2" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, single episode, severe without psychotic features"/>
+            <Concept code="F32.3" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, single episode, severe with psychotic features"/>
+            <Concept code="F32.4" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, single episode, in partial remission"/>
+            <Concept code="F32.5" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, single episode, in full remission"/>
+            <Concept code="F32.89" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Other specified depressive episodes"/>
+            <Concept code="F32.9" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, single episode, unspecified"/>
+            <Concept code="F33.0" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, recurrent, mild"/>
+            <Concept code="F33.1" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, recurrent, moderate"/>
+            <Concept code="F33.2" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, recurrent severe without psychotic features"/>
+            <Concept code="F33.3" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, recurrent, severe with psychotic symptoms"/>
+            <Concept code="F33.42" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, recurrent, in full remission"/>
+            <Concept code="F33.9" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Major depressive disorder, recurrent, unspecified"/>
+            <Concept code="F34.1" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Dysthymic disorder"/>
+            <Concept code="F34.81" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Disruptive mood dysregulation disorder"/>
+            <Concept code="F34.89" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Other specified persistent mood disorders"/>
+            <Concept code="F43.21" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Adjustment disorder with depressed mood"/>
+            <Concept code="F43.23" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2017" displayName="Adjustment disorder with mixed anxiety and depressed mood"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.145</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.600.141:Depression Diagnosis SNOMED),(2.16.840.1.113883.3.600.143:Depression Diagnosis ICD9),(2.16.840.1.113883.3.600.144:Depression Diagnosis ICD10)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2017-01-04Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.469" displayName="Depression medications - adolescent" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="1190110" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 60 MG Oral Tablet"/>
+            <Concept code="248642" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 20 MG Oral Tablet"/>
+            <Concept code="310384" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 10 MG Oral Capsule"/>
+            <Concept code="310385" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 20 MG Oral Capsule"/>
+            <Concept code="310386" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 4 MG/ML Oral Solution"/>
+            <Concept code="313989" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 40 MG Oral Capsule"/>
+            <Concept code="313990" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 10 MG Oral Tablet"/>
+            <Concept code="313995" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 90 MG Delayed Release Oral Capsule"/>
+            <Concept code="803293" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 15 MG Oral Tablet"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.469</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.470" displayName="Depression medications - adult" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="1000048" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 10 MG Oral Capsule"/>
+            <Concept code="1000054" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 10 MG/ML Oral Solution"/>
+            <Concept code="1000058" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 100 MG Oral Capsule"/>
+            <Concept code="1000064" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 150 MG Oral Capsule"/>
+            <Concept code="1000070" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 25 MG Oral Capsule"/>
+            <Concept code="1000076" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 50 MG Oral Capsule"/>
+            <Concept code="1000097" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 75 MG Oral Capsule"/>
+            <Concept code="1041790" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 1400 MG Oral Capsule"/>
+            <Concept code="1086772" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="vilazodone hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="1086778" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="vilazodone hydrochloride 20 MG Oral Tablet"/>
+            <Concept code="1086784" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="vilazodone hydrochloride 40 MG Oral Tablet"/>
+            <Concept code="1086789" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="{7 (vilazodone hydrochloride 10 MG Oral Tablet) / 7 (vilazodone hydrochloride 20 MG Oral Tablet) / 16 (vilazodone hydrochloride 40 MG Oral Tablet) } Pack"/>
+            <Concept code="1092185" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 1000 MG Delayed Release Oral Capsule"/>
+            <Concept code="1098649" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="1098666" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 150 MG Oral Tablet"/>
+            <Concept code="1098670" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 200 MG Oral Tablet"/>
+            <Concept code="1098674" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 250 MG Oral Tablet"/>
+            <Concept code="1098678" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="1098710" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 300 MG Oral Tablet"/>
+            <Concept code="1099288" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="1099292" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="1099296" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 150 MG Oral Tablet"/>
+            <Concept code="1099300" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="1099304" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="1099316" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 75 MG Oral Tablet"/>
+            <Concept code="1111695" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 875 MG Chewable Tablet"/>
+            <Concept code="1119617" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 840 MG Delayed Release Oral Capsule"/>
+            <Concept code="1190110" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 60 MG Oral Tablet"/>
+            <Concept code="1232585" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 450 MG Extended Release Oral Tablet"/>
+            <Concept code="1245038" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 333 MG Delayed Release Oral Capsule"/>
+            <Concept code="1291263" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 875 MG Oral Capsule"/>
+            <Concept code="1298857" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Maprotiline Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="1298861" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Maprotiline Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="1298870" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Maprotiline Hydrochloride 75 MG Oral Tablet"/>
+            <Concept code="1301023" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 1400 MG Delayed Release Oral Capsule"/>
+            <Concept code="1301024" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 600 MG Delayed Release Oral Capsule"/>
+            <Concept code="197363" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amoxapine 100 MG Oral Tablet"/>
+            <Concept code="197364" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amoxapine 150 MG Oral Tablet"/>
+            <Concept code="197365" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amoxapine 25 MG Oral Tablet"/>
+            <Concept code="197366" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amoxapine 50 MG Oral Tablet"/>
+            <Concept code="198045" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 10 MG Oral Capsule"/>
+            <Concept code="198046" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 50 MG Oral Capsule"/>
+            <Concept code="198047" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 75 MG Oral Capsule"/>
+            <Concept code="198640" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 0.4 MG Oral Tablet"/>
+            <Concept code="198641" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 0.8 MG Oral Tablet"/>
+            <Concept code="199283" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 10 MG Oral Tablet"/>
+            <Concept code="199318" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 5 MG Oral Tablet"/>
+            <Concept code="199333" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 0.5 MG Oral Tablet"/>
+            <Concept code="199820" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 25 MG Oral Tablet"/>
+            <Concept code="200145" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 300 MG Oral Capsule"/>
+            <Concept code="200368" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 510 MG Oral Capsule"/>
+            <Concept code="200371" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 20 MG Oral Tablet"/>
+            <Concept code="237786" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 5 MG/ML Injectable Solution"/>
+            <Concept code="245373" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 50 MG Oral Tablet"/>
+            <Concept code="245562" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 25 MG Oral Tablet"/>
+            <Concept code="248642" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 20 MG Oral Tablet"/>
+            <Concept code="251200" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 200 MG Oral Tablet"/>
+            <Concept code="252463" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 0.8 MG Oral Capsule"/>
+            <Concept code="252712" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 150 MG Oral Tablet"/>
+            <Concept code="252714" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 300 MG Oral Tablet"/>
+            <Concept code="253086" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 400 MG Oral Capsule"/>
+            <Concept code="259140" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 375 MG Oral Capsule"/>
+            <Concept code="259197" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 450 MG Oral Capsule"/>
+            <Concept code="260001" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 5 MG Oral Capsule"/>
+            <Concept code="260002" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 20 MG Oral Capsule"/>
+            <Concept code="282962" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 250 MG Oral Capsule"/>
+            <Concept code="283406" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 15 MG Disintegrating Oral Tablet"/>
+            <Concept code="283407" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 30 MG Disintegrating Oral Tablet"/>
+            <Concept code="283485" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 45 MG Disintegrating Oral Tablet"/>
+            <Concept code="283672" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 10 MG Oral Tablet"/>
+            <Concept code="284046" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="ST. JOHN'S WORT EXTRACT 1000 MG Oral Capsule"/>
+            <Concept code="309313" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 2 MG/ML Oral Solution"/>
+            <Concept code="309314" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 40 MG Oral Tablet"/>
+            <Concept code="310384" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 10 MG Oral Capsule"/>
+            <Concept code="310385" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 20 MG Oral Capsule"/>
+            <Concept code="310386" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 4 MG/ML Oral Solution"/>
+            <Concept code="310410" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Folic Acid 1 MG Oral Tablet"/>
+            <Concept code="311725" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 15 MG Oral Tablet"/>
+            <Concept code="311726" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 45 MG Oral Tablet"/>
+            <Concept code="312036" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 2 MG/ML Oral Solution"/>
+            <Concept code="312241" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 10 MG Oral Tablet"/>
+            <Concept code="312242" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 2 MG/ML Oral Suspension"/>
+            <Concept code="312243" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 30 MG Oral Tablet"/>
+            <Concept code="312244" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 40 MG Oral Tablet"/>
+            <Concept code="312347" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Phenelzine 15 MG Oral Tablet"/>
+            <Concept code="312938" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 100 MG Oral Tablet"/>
+            <Concept code="312940" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 25 MG Oral Tablet"/>
+            <Concept code="312941" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 50 MG Oral Tablet"/>
+            <Concept code="313447" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Tranylcypromine 10 MG Oral Tablet"/>
+            <Concept code="313496" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 100 MG Oral Capsule"/>
+            <Concept code="313497" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 100 MG Oral Tablet"/>
+            <Concept code="313498" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 25 MG Oral Capsule"/>
+            <Concept code="313499" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 50 MG Oral Capsule"/>
+            <Concept code="313580" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 100 MG Oral Tablet"/>
+            <Concept code="313581" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 150 MG Extended Release Oral Capsule"/>
+            <Concept code="313582" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 25 MG Oral Tablet"/>
+            <Concept code="313583" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 37.5 MG Extended Release Oral Capsule"/>
+            <Concept code="313584" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 37.5 MG Oral Tablet"/>
+            <Concept code="313585" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 75 MG Extended Release Oral Capsule"/>
+            <Concept code="313586" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 75 MG Oral Tablet"/>
+            <Concept code="313989" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 40 MG Oral Capsule"/>
+            <Concept code="313990" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 10 MG Oral Tablet"/>
+            <Concept code="313995" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 90 MG Delayed Release Oral Capsule"/>
+            <Concept code="314111" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 30 MG Oral Tablet"/>
+            <Concept code="314199" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 20 MG Oral Tablet"/>
+            <Concept code="314277" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 50 MG Oral Tablet"/>
+            <Concept code="317136" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 25 MG Oral Capsule"/>
+            <Concept code="349332" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Escitalopram 10 MG Oral Tablet"/>
+            <Concept code="349591" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="atomoxetine 10 MG Oral Capsule"/>
+            <Concept code="349592" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="atomoxetine 18 MG Oral Capsule"/>
+            <Concept code="349593" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="atomoxetine 25 MG Oral Capsule"/>
+            <Concept code="349594" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="atomoxetine 40 MG Oral Capsule"/>
+            <Concept code="349595" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="atomoxetine 60 MG Oral Capsule"/>
+            <Concept code="351249" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Escitalopram 5 MG Oral Tablet"/>
+            <Concept code="351250" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Escitalopram 20 MG Oral Tablet"/>
+            <Concept code="351285" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Escitalopram 1 MG/ML Oral Solution"/>
+            <Concept code="410503" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="5-Hydroxytryptophan 100 MG Oral Capsule"/>
+            <Concept code="476809" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 7.5 MG Oral Tablet"/>
+            <Concept code="485514" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="5-Hydroxytryptophan 50 MG Oral Capsule"/>
+            <Concept code="562790" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 12.5 MG Extended Release Oral Tablet"/>
+            <Concept code="562791" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 25 MG Extended Release Oral Tablet"/>
+            <Concept code="562815" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 37.5 MG Extended Release Oral Tablet"/>
+            <Concept code="577208" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 1000 MG Oral Capsule"/>
+            <Concept code="596926" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="duloxetine 20 MG Delayed Release Oral Capsule"/>
+            <Concept code="596930" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="duloxetine 30 MG Delayed Release Oral Capsule"/>
+            <Concept code="596934" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="duloxetine 60 MG Delayed Release Oral Capsule"/>
+            <Concept code="608139" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="atomoxetine 100 MG Oral Capsule"/>
+            <Concept code="608143" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="atomoxetine 80 MG Oral Capsule"/>
+            <Concept code="730440" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 10 MG Oral Capsule"/>
+            <Concept code="730441" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 20 MG Oral Capsule"/>
+            <Concept code="730442" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 40 MG Oral Capsule"/>
+            <Concept code="790264" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Desvenlafaxine 100 MG Extended Release Oral Tablet"/>
+            <Concept code="790288" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Desvenlafaxine 50 MG Extended Release Oral Tablet"/>
+            <Concept code="794947" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 150 MG Oral Tablet"/>
+            <Concept code="803293" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 15 MG Oral Tablet"/>
+            <Concept code="808744" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 150 MG Extended Release Oral Tablet"/>
+            <Concept code="808748" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 225 MG Extended Release Oral Tablet"/>
+            <Concept code="808751" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 37.5 MG Extended Release Oral Tablet"/>
+            <Concept code="808753" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 75 MG Extended Release Oral Tablet"/>
+            <Concept code="835564" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="835568" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="835572" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine pamoate 75 MG Oral Capsule"/>
+            <Concept code="835577" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine pamoate 150 MG Oral Capsule"/>
+            <Concept code="835582" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine Hydrochloride 12.5 MG/ML Injectable Solution"/>
+            <Concept code="835589" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine pamoate 125 MG Oral Capsule"/>
+            <Concept code="835591" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine pamoate 100 MG Oral Capsule"/>
+            <Concept code="835593" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="856364" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trazodone Hydrochloride 150 MG Oral Tablet"/>
+            <Concept code="856369" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trazodone Hydrochloride 300 MG Oral Tablet"/>
+            <Concept code="856373" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trazodone Hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="856377" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trazodone Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="856706" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 10 MG / Perphenazine 2 MG Oral Tablet"/>
+            <Concept code="856720" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 10 MG / Perphenazine 4 MG Oral Tablet"/>
+            <Concept code="856762" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="856769" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 12.5 MG / Chlordiazepoxide 5 MG Oral Tablet"/>
+            <Concept code="856773" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 150 MG Oral Tablet"/>
+            <Concept code="856783" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="856792" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 25 MG / Chlordiazepoxide 10 MG Oral Tablet"/>
+            <Concept code="856797" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 25 MG / Perphenazine 2 MG Oral Tablet"/>
+            <Concept code="856825" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 25 MG / Perphenazine 4 MG Oral Tablet"/>
+            <Concept code="856834" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="856840" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 50 MG / Perphenazine 4 MG Oral Tablet"/>
+            <Concept code="856845" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="856853" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 75 MG Oral Tablet"/>
+            <Concept code="857291" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="857296" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="857297" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 25 MG Oral Capsule"/>
+            <Concept code="857301" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 50 MG Oral Capsule"/>
+            <Concept code="857305" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 75 MG Oral Capsule"/>
+            <Concept code="857315" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="859186" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="selegiline hydrochloride 5 MG Oral Capsule"/>
+            <Concept code="859190" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="selegiline hydrochloride 1.25 MG Disintegrating Oral Tablet"/>
+            <Concept code="859193" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="selegiline hydrochloride 5 MG Oral Tablet"/>
+            <Concept code="861064" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 20 MG/ML Oral Solution"/>
+            <Concept code="865206" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR selegiline hydrochloride 0.25 MG/HR Transdermal Patch"/>
+            <Concept code="865210" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR selegiline hydrochloride 0.375 MG/HR Transdermal Patch"/>
+            <Concept code="865214" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR selegiline hydrochloride 0.5 MG/HR Transdermal Patch"/>
+            <Concept code="884808" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 1050 MG Oral Capsule"/>
+            <Concept code="884813" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 725 MG Oral Capsule"/>
+            <Concept code="884821" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 952 MG Oral Capsule"/>
+            <Concept code="884824" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 340 MG Delayed Release Oral Capsule"/>
+            <Concept code="895018" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="{5 (atomoxetine 10 MG Oral Capsule) / 5 (atomoxetine 18 MG Oral Capsule) / 5 (atomoxetine 25 MG Oral Capsule) / 15 (atomoxetine 40 MG Oral Capsule) } Pack"/>
+            <Concept code="895020" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="{5 (atomoxetine 18 MG Oral Capsule) / 5 (atomoxetine 25 MG Oral Capsule) / 5 (atomoxetine 40 MG Oral Capsule) / 15 (atomoxetine 60 MG Oral Capsule) } Pack"/>
+            <Concept code="895023" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="{5 (atomoxetine 25 MG Oral Capsule) / 5 (atomoxetine 40 MG Oral Capsule) / 5 (atomoxetine 60 MG Oral Capsule) / 15 (atomoxetine 80 MG Oral Capsule) } Pack"/>
+            <Concept code="898697" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Trazodone Hydrochloride 150 MG Extended Release Oral Tablet"/>
+            <Concept code="898704" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Trazodone Hydrochloride 300 MG Extended Release Oral Tablet"/>
+            <Concept code="899262" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 880 MG Oral Capsule"/>
+            <Concept code="903873" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Fluvoxamine Maleate 100 MG Extended Release Oral Capsule"/>
+            <Concept code="903879" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Fluvoxamine Maleate 150 MG Extended Release Oral Capsule"/>
+            <Concept code="903884" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluvoxamine Maleate 100 MG Oral Tablet"/>
+            <Concept code="903887" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluvoxamine Maleate 25 MG Oral Tablet"/>
+            <Concept code="903891" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluvoxamine Maleate 50 MG Oral Tablet"/>
+            <Concept code="905168" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Protriptyline Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="905172" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Protriptyline Hydrochloride 5 MG Oral Tablet"/>
+            <Concept code="966787" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin 3 MG Oral Tablet"/>
+            <Concept code="966793" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin 6 MG Oral Tablet"/>
+            <Concept code="993503" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 100 MG Extended Release Oral Tablet"/>
+            <Concept code="993518" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet"/>
+            <Concept code="993536" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 200 MG Extended Release Oral Tablet"/>
+            <Concept code="993541" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet"/>
+            <Concept code="993550" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 174 MG Extended Release Oral Tablet"/>
+            <Concept code="993557" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 300 MG Extended Release Oral Tablet"/>
+            <Concept code="993567" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 348 MG Extended Release Oral Tablet"/>
+            <Concept code="993681" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 522 MG Extended Release Oral Tablet"/>
+            <Concept code="993687" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Bupropion Hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="993691" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Bupropion Hydrochloride 75 MG Oral Tablet"/>
+            <Concept code="994911" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Omega-3 Acid Ethyl Esters (USP) 100 MG Chewable Tablet"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.470</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.1916" displayName="Depression Screening  Encounter Codes" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="10197000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric interview and evaluation (procedure)"/>
+            <Concept code="108220007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation AND/OR management - new patient (procedure)"/>
+            <Concept code="108221006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation AND/OR management - established patient (procedure)"/>
+            <Concept code="108224003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Preventive patient evaluation (procedure)"/>
+            <Concept code="108250004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Hearing therapy AND/OR auditory rehabilitation (regime/therapy)"/>
+            <Concept code="108311000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric procedure, interview AND/OR consultation (procedure)"/>
+            <Concept code="13607009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Manual examination of breast (procedure)"/>
+            <Concept code="14736009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="History and physical examination with evaluation and management of patient (procedure)"/>
+            <Concept code="165171009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Initial psychiatric evaluation (procedure)"/>
+            <Concept code="171207006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depression screening (procedure)"/>
+            <Concept code="18512000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Individual psychotherapy (regime/therapy)"/>
+            <Concept code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Encounter for &quot;check-up&quot; (procedure)"/>
+            <Concept code="185463005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Visit out of hours (procedure)"/>
+            <Concept code="185465003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Weekend visit (procedure)"/>
+            <Concept code="252592009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Speech audiometry (procedure)"/>
+            <Concept code="252603000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Tinnitus assessment (procedure)"/>
+            <Concept code="270427003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient-initiated encounter (procedure)"/>
+            <Concept code="270430005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Provider-initiated encounter (procedure)"/>
+            <Concept code="274803000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Examination of tympanic membrane (procedure)"/>
+            <Concept code="277404009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="High frequency tympanometry (procedure)"/>
+            <Concept code="302440009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric pharmacologic management (procedure)"/>
+            <Concept code="30346009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation and management of established outpatient in office or other outpatient facility (procedure)"/>
+            <Concept code="308335008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient encounter procedure (procedure)"/>
+            <Concept code="32537008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric diagnostic interview, examination, history, mental status and disposition (procedure)"/>
+            <Concept code="35025007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Manual pelvic examination (procedure)"/>
+            <Concept code="370803007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation of psychosocial impact on plan of care (procedure)"/>
+            <Concept code="37894004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Evaluation and management of new outpatient in office or other outpatient facility (procedure)"/>
+            <Concept code="390906007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Follow-up encounter (procedure)"/>
+            <Concept code="406547006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Urgent follow-up (procedure)"/>
+            <Concept code="410155007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Occupational therapy assessment (procedure)"/>
+            <Concept code="410157004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Occupational therapy management (procedure)"/>
+            <Concept code="43362002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Fitting of hearing aid (procedure)"/>
+            <Concept code="46662001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Examination of breast (procedure)"/>
+            <Concept code="48423005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Acoustic reflex testing (procedure)"/>
+            <Concept code="53555003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Basic comprehensive audiometry testing (procedure)"/>
+            <Concept code="67533008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Auditory rehabilitation (regime/therapy)"/>
+            <Concept code="78318003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="History and physical examination, annual for health maintenance (procedure)"/>
+            <Concept code="83607001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Gynecologic examination (procedure)"/>
+            <Concept code="8411005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Interactive individual medical psychotherapy (regime/therapy)"/>
+            <Concept code="86013001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Periodic reevaluation and management of healthy individual (procedure)"/>
+            <Concept code="90526000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Initial evaluation and management of healthy individual (procedure)"/>
+            <Concept code="90791" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychiatric diagnostic evaluation"/>
+            <Concept code="90792" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychiatric diagnostic evaluation with medical services"/>
+            <Concept code="90832" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 30 minutes with patient and/or family member"/>
+            <Concept code="90834" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 45 minutes with patient and/or family member"/>
+            <Concept code="90837" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 60 minutes with patient and/or family member"/>
+            <Concept code="91573000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Tympanometry testing (procedure)"/>
+            <Concept code="92625" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Assessment of tinnitus (includes pitch, loudness matching, and masking)"/>
+            <Concept code="96116" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Neurobehavioral status exam (clinical assessment of thinking, reasoning and judgment, eg, acquired knowledge, attention, language, memory, planning and problem solving, and visual spatial abilities), per hour of the psychologist's or physician's time, both face-to-face time with the patient and time interpreting test results and preparing the report"/>
+            <Concept code="96118" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Neuropsychological testing (eg, Halstead-Reitan Neuropsychological Battery, Wechsler Memory Scales and Wisconsin Card Sorting Test), per hour of the psychologist's or physician's time, both face-to-face time administering tests to the patient and time interpreting these test results and preparing the report"/>
+            <Concept code="96150" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Health and behavior assessment (eg, health-focused clinical interview, behavioral observations, psychophysiological monitoring, health-oriented questionnaires), each 15 minutes face-to-face with the patient; initial assessment"/>
+            <Concept code="96151" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Health and behavior assessment (eg, health-focused clinical interview, behavioral observations, psychophysiological monitoring, health-oriented questionnaires), each 15 minutes face-to-face with the patient; re-assessment"/>
+            <Concept code="97003" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Occupational therapy evaluation"/>
+            <Concept code="99201" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 10 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99202" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 20 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99203" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99204" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99205" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99212" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 10 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99213" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 15 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99214" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 25 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99215" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99384" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; adolescent (age 12 through 17 years)"/>
+            <Concept code="99385" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 18-39 years"/>
+            <Concept code="99386" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 40-64 years"/>
+            <Concept code="99387" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 65 years and older"/>
+            <Concept code="99394" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; adolescent (age 12 through 17 years)"/>
+            <Concept code="99395" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 18-39 years"/>
+            <Concept code="99396" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 40-64 years"/>
+            <Concept code="99397" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 65 years and older"/>
+            <Concept code="G0101" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Cervical or vaginal cancer screening; pelvic and clinical breast examination"/>
+            <Concept code="G0402" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Initial preventive physical examination; face-to-face visit, services limited to new beneficiary during the first 12 months of medicare enrollment"/>
+            <Concept code="G0438" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit"/>
+            <Concept code="G0439" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit"/>
+            <Concept code="G0444" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Annual depression screening, 15 minutes"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.1916</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1115:Preventive Care Services-Initial Office Visit, 18 and Up),(2.16.840.1.113883.3.464.1003.101.11.1125:Preventive Care Services - Established Office Visit, 18 and Up),(2.16.840.1.113883.3.600.1538:Depression Screening Denominator Encounter Codes CPT),(2.16.840.1.113883.3.600.1914:Depression Screening Denominator Encounter Codes SNOMED),(2.16.840.1.113883.3.600.1915:Depression Screening Denominator Encounter Codes HCPCS new)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.837" displayName="Ethnicity" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="2135-2" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Hispanic or Latino"/>
+            <Concept code="2186-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Not Hispanic or Latino"/>
+        </ConceptList>
+        <Source>Centers for Disease Control National Center for Health Statistics</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.837</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.467" displayName="Follow-up for depression - adolescent" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="372067001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Implementation of measures to provide psychological support (regime/therapy)"/>
+            <Concept code="385721005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Coping support assessment (procedure)"/>
+            <Concept code="385724002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Coping support management (procedure)"/>
+            <Concept code="385725001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Emotional support assessment (procedure)"/>
+            <Concept code="385726000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Emotional support education (procedure)"/>
+            <Concept code="385727009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Emotional support management (procedure)"/>
+            <Concept code="385887004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health history taking assessment (procedure)"/>
+            <Concept code="385889001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health history taking education (procedure)"/>
+            <Concept code="385890005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health history taking management (procedure)"/>
+            <Concept code="401277000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Completion of mental health crisis plan (procedure)"/>
+            <Concept code="410223002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health care assessment (procedure)"/>
+            <Concept code="410224008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health care education (procedure)"/>
+            <Concept code="410225009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health care management (procedure)"/>
+            <Concept code="410226005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health promotion assessment (procedure)"/>
+            <Concept code="410227001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health promotion education (procedure)"/>
+            <Concept code="410228006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health promotion management (procedure)"/>
+            <Concept code="410229003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health screening assessment (procedure)"/>
+            <Concept code="410230008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health screening education (procedure)"/>
+            <Concept code="410231007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health screening management (procedure)"/>
+            <Concept code="410232000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health treatment assessment (procedure)"/>
+            <Concept code="410233005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health treatment education (procedure)"/>
+            <Concept code="410234004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Management of mental health treatment (procedure)"/>
+            <Concept code="425604002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Case management follow up (procedure)"/>
+            <Concept code="439141002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Discharge by mental health primary care worker (procedure)"/>
+            <Concept code="5694008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Crisis intervention with follow-up (regime/therapy)"/>
+            <Concept code="88848003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric follow-up (procedure)"/>
+            <Concept code="91310009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient follow-up to return when and if necessary (procedure)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.467</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.468" displayName="Follow-up for depression - adult" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="372067001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Implementation of measures to provide psychological support (regime/therapy)"/>
+            <Concept code="385721005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Coping support assessment (procedure)"/>
+            <Concept code="385724002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Coping support management (procedure)"/>
+            <Concept code="385725001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Emotional support assessment (procedure)"/>
+            <Concept code="385726000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Emotional support education (procedure)"/>
+            <Concept code="385727009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Emotional support management (procedure)"/>
+            <Concept code="385887004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health history taking assessment (procedure)"/>
+            <Concept code="385889001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health history taking education (procedure)"/>
+            <Concept code="385890005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health history taking management (procedure)"/>
+            <Concept code="401277000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Completion of mental health crisis plan (procedure)"/>
+            <Concept code="410223002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health care assessment (procedure)"/>
+            <Concept code="410224008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health care education (procedure)"/>
+            <Concept code="410225009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health care management (procedure)"/>
+            <Concept code="410226005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health promotion assessment (procedure)"/>
+            <Concept code="410227001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health promotion education (procedure)"/>
+            <Concept code="410228006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health promotion management (procedure)"/>
+            <Concept code="410229003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health screening assessment (procedure)"/>
+            <Concept code="410230008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health screening education (procedure)"/>
+            <Concept code="410231007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health screening management (procedure)"/>
+            <Concept code="410232000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health treatment assessment (procedure)"/>
+            <Concept code="410233005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mental health treatment education (procedure)"/>
+            <Concept code="410234004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Management of mental health treatment (procedure)"/>
+            <Concept code="425604002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Case management follow up (procedure)"/>
+            <Concept code="439141002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Discharge by mental health primary care worker (procedure)"/>
+            <Concept code="5694008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Crisis intervention with follow-up (regime/therapy)"/>
+            <Concept code="88848003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Psychiatric follow-up (procedure)"/>
+            <Concept code="91310009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient follow-up to return when and if necessary (procedure)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.468</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.1.1502" displayName="Medical or Other reason not done" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="183932001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Procedure contraindicated (situation)"/>
+            <Concept code="397745006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Medical contraindication (finding)"/>
+            <Concept code="407563006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Treatment not tolerated (situation)"/>
+            <Concept code="428119001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Procedure not indicated (situation)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.1.1502</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.2451" displayName="Negative Depression Screening" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="428171000124102" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depression screening negative (finding)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.2451</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113762.1.4.1" displayName="ONC Administrative Sex" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" codeSystemVersion="HL7V3.0_2014-08" displayName="Female"/>
+            <Concept code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" codeSystemVersion="HL7V3.0_2014-08" displayName="Male"/>
+        </ConceptList>
+        <Source>Office of the National Coordinator for Health Information Technology</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113762.1.4.1</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2015-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.791" displayName="Patient Reason refused" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="105480006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Refusal of treatment by patient (situation)"/>
+            <Concept code="183944003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Procedure refused (situation)"/>
+            <Concept code="183945002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Procedure refused for religious reason (situation)"/>
+            <Concept code="413310006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient non-compliant - refused access to services (situation)"/>
+            <Concept code="413311005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient non-compliant - refused intervention / support (situation)"/>
+            <Concept code="413312003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient non-compliant - refused service (situation)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.791</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.3591" displayName="Payer" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="1" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MEDICARE"/>
+            <Concept code="11" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare (Managed Care)"/>
+            <Concept code="111" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare HMO"/>
+            <Concept code="112" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare PPO"/>
+            <Concept code="113" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare POS"/>
+            <Concept code="119" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Managed Care Other"/>
+            <Concept code="12" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare (Non-managed Care)"/>
+            <Concept code="121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare FFS"/>
+            <Concept code="122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Drug Benefit"/>
+            <Concept code="123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Medical Savings Account (MSA)"/>
+            <Concept code="129" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Non-managed Care Other"/>
+            <Concept code="19" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Other"/>
+            <Concept code="2" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MEDICAID"/>
+            <Concept code="21" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid (Managed Care)"/>
+            <Concept code="211" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid HMO"/>
+            <Concept code="212" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid PPO"/>
+            <Concept code="213" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid PCCM (Primary Care Case Management)"/>
+            <Concept code="219" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Managed Care Other"/>
+            <Concept code="22" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid (Non-managed Care Plan)"/>
+            <Concept code="23" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid/SCHIP"/>
+            <Concept code="24" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Applicant"/>
+            <Concept code="25" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid - Out of State"/>
+            <Concept code="29" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Other"/>
+            <Concept code="3" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="OTHER GOVERNMENT (Federal/State/Local) (excluding Department of Corrections)"/>
+            <Concept code="31" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Defense"/>
+            <Concept code="311" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE (CHAMPUS)"/>
+            <Concept code="3111" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Prime-HMO"/>
+            <Concept code="3112" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Extra-PPO"/>
+            <Concept code="3113" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Standard - Fee For Service"/>
+            <Concept code="3114" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE For Life--Medicare Supplement"/>
+            <Concept code="3115" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Reserve Select"/>
+            <Concept code="3116" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Uniformed Services Family Health Plan (USFHP) -- HMO"/>
+            <Concept code="3119" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Defense - (other)"/>
+            <Concept code="312" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Military Treatment Facility"/>
+            <Concept code="3121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Enrolled Prime-HMO"/>
+            <Concept code="3122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Non-enrolled Space Available"/>
+            <Concept code="3123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE For Life (TFL)"/>
+            <Concept code="313" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Dental --Stand Alone"/>
+            <Concept code="32" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Veterans Affairs"/>
+            <Concept code="321" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Veteran care--Care provided to Veterans"/>
+            <Concept code="3211" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Direct Care--Care provided in VA facilities"/>
+            <Concept code="3212" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indirect Care--Care provided outside VA facilities"/>
+            <Concept code="32121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Fee Basis"/>
+            <Concept code="32122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Foreign Fee/Foreign Medical Program(FMP)"/>
+            <Concept code="32123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Contract Nursing Home/Community Nursing Home"/>
+            <Concept code="32124" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State Veterans Home"/>
+            <Concept code="32125" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Sharing Agreements"/>
+            <Concept code="32126" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Federal Agency"/>
+            <Concept code="322" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Non-veteran care"/>
+            <Concept code="3221" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Civilian Health and Medical Program for the VA (CHAMPVA)"/>
+            <Concept code="3222" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Spina Bifida Health Care Program (SB)"/>
+            <Concept code="3223" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Children of Women Vietnam Veterans (CWVV)"/>
+            <Concept code="3229" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other non-veteran care"/>
+            <Concept code="33" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service or Tribe"/>
+            <Concept code="331" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Regular"/>
+            <Concept code="332" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Contract"/>
+            <Concept code="333" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Managed Care"/>
+            <Concept code="334" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Tribe - Sponsored Coverage"/>
+            <Concept code="34" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HRSA Program"/>
+            <Concept code="341" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Title V (MCH Block Grant)"/>
+            <Concept code="342" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Migrant Health Program"/>
+            <Concept code="343" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Ryan White Act"/>
+            <Concept code="349" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other"/>
+            <Concept code="35" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Black Lung"/>
+            <Concept code="36" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State Government"/>
+            <Concept code="361" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State SCHIP program (codes for individual states)"/>
+            <Concept code="362" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Specific state programs (list/ local code)"/>
+            <Concept code="369" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State, not otherwise specified (other state)"/>
+            <Concept code="37" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local Government"/>
+            <Concept code="371" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local - Managed care"/>
+            <Concept code="3711" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HMO"/>
+            <Concept code="3712" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PPO"/>
+            <Concept code="3713" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="POS"/>
+            <Concept code="372" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="FFS/Indemnity"/>
+            <Concept code="379" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local, not otherwise specified (other local, county)"/>
+            <Concept code="38" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Government (Federal, State, Local not specified)"/>
+            <Concept code="381" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified managed care"/>
+            <Concept code="3811" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - HMO"/>
+            <Concept code="3812" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - PPO"/>
+            <Concept code="3813" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - POS"/>
+            <Concept code="3819" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - not specified managed care"/>
+            <Concept code="382" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - FFS"/>
+            <Concept code="389" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - Other"/>
+            <Concept code="39" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Federal"/>
+            <Concept code="4" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="DEPARTMENTS OF CORRECTIONS"/>
+            <Concept code="41" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Federal"/>
+            <Concept code="42" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections State"/>
+            <Concept code="43" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Local"/>
+            <Concept code="44" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Unknown Level"/>
+            <Concept code="5" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PRIVATE HEALTH INSURANCE"/>
+            <Concept code="51" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care (Private)"/>
+            <Concept code="511" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - HMO"/>
+            <Concept code="512" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - PPO"/>
+            <Concept code="513" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - POS"/>
+            <Concept code="514" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Exclusive Provider Organization"/>
+            <Concept code="515" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Gatekeeper PPO (GPPO)"/>
+            <Concept code="519" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care, Other (non HMO)"/>
+            <Concept code="52" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Private Health Insurance - Indemnity"/>
+            <Concept code="521" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Indemnity"/>
+            <Concept code="522" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Self-insured (ERISA) Administrative Services Only (ASO) plan"/>
+            <Concept code="523" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare supplemental policy (as second payer)"/>
+            <Concept code="529" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Private health insurance-other commercial Indemnity"/>
+            <Concept code="53" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care (private) or private health insurance (indemnity), not otherwise specified"/>
+            <Concept code="54" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Organized Delivery System"/>
+            <Concept code="55" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Small Employer Purchasing Group"/>
+            <Concept code="59" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Private Insurance"/>
+            <Concept code="6" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BLUE CROSS/BLUE SHIELD"/>
+            <Concept code="61" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care"/>
+            <Concept code="611" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - HMO"/>
+            <Concept code="612" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - PPO"/>
+            <Concept code="613" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - POS"/>
+            <Concept code="619" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - Other"/>
+            <Concept code="62" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Indemnity"/>
+            <Concept code="63" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Out of State"/>
+            <Concept code="64" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Unspecified"/>
+            <Concept code="69" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Other"/>
+            <Concept code="7" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MANAGED CARE, UNSPECIFIED (to be used only if one can't distinguish public from private)"/>
+            <Concept code="71" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HMO"/>
+            <Concept code="72" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PPO"/>
+            <Concept code="73" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="POS"/>
+            <Concept code="79" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Managed Care, Unknown if public or private"/>
+            <Concept code="8" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="NO PAYMENT from an Organization/Agency/Program/Private Payer Listed"/>
+            <Concept code="81" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Self-pay"/>
+            <Concept code="82" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Charge"/>
+            <Concept code="821" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Charity"/>
+            <Concept code="822" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Professional Courtesy"/>
+            <Concept code="823" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Research/Clinical Trial"/>
+            <Concept code="83" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Refusal to Pay/Bad Debt"/>
+            <Concept code="84" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Hill Burton Free Care"/>
+            <Concept code="85" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Research/Donor"/>
+            <Concept code="89" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Payment, Other"/>
+            <Concept code="9" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MISCELLANEOUS/OTHER"/>
+            <Concept code="91" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Foreign National"/>
+            <Concept code="92" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other (Non-government)"/>
+            <Concept code="93" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Disability Insurance"/>
+            <Concept code="94" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Long-term Care Insurance"/>
+            <Concept code="95" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Compensation"/>
+            <Concept code="951" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp HMO"/>
+            <Concept code="953" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp Fee-for-Service"/>
+            <Concept code="954" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp Other Managed Care"/>
+            <Concept code="959" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp, Other unspecified"/>
+            <Concept code="96" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Auto Insurance (no fault)"/>
+            <Concept code="98" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other specified (includes Hospice - Unspecified plan)"/>
+            <Concept code="99" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Typology Code available for payment source"/>
+            <Concept code="9999" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Unavailable / Unknown"/>
+        </ConceptList>
+        <Source>Public Health Data Standards Consortium</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.3591</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.2450" displayName="Positive Depression Screening" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="428181000124104" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depression screening positive (situation)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.2450</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.836" displayName="Race" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="1002-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="American Indian or Alaska Native"/>
+            <Concept code="2028-9" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Asian"/>
+            <Concept code="2054-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Black or African American"/>
+            <Concept code="2076-8" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Native Hawaiian or Other Pacific Islander"/>
+            <Concept code="2106-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="White"/>
+            <Concept code="2131-1" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Other Race"/>
+        </ConceptList>
+        <Source>Centers for Disease Control National Center for Health Statistics</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.836</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.537" displayName="Referral for Depression Adolescent" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="183524004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychiatry service (procedure)"/>
+            <Concept code="183583007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Refer to mental health worker (procedure)"/>
+            <Concept code="183851006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to clinic (procedure)"/>
+            <Concept code="183866009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to emergency clinic (procedure)"/>
+            <Concept code="305922005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral by mental health counselor (procedure)"/>
+            <Concept code="306136006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to liaison psychiatry service (procedure)"/>
+            <Concept code="306137002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to mental handicap psychiatry service (procedure)"/>
+            <Concept code="306226009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to mental health counseling service (procedure)"/>
+            <Concept code="306227000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral for mental health counseling (procedure)"/>
+            <Concept code="306252003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to mental health counselor (procedure)"/>
+            <Concept code="306291008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to child and adolescent psychiatrist (procedure)"/>
+            <Concept code="306294000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychiatrist for mental handicap (procedure)"/>
+            <Concept code="308459004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychologist (procedure)"/>
+            <Concept code="308477009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychiatrist (procedure)"/>
+            <Concept code="309627007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Child referral - clinical psychologist (procedure)"/>
+            <Concept code="390866009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to mental health team (procedure)"/>
+            <Concept code="401174001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depression management program (regime/therapy)"/>
+            <Concept code="429387009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral by psychologist (procedure)"/>
+            <Concept code="61801003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient referral for psychiatric aftercare (procedure)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.537</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.538" displayName="Referral for Depression Adult" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="103696004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient referral to specialist (procedure)"/>
+            <Concept code="14129001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="History and physical examination, follow-up for emotional or mental disease (procedure)"/>
+            <Concept code="183524004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychiatry service (procedure)"/>
+            <Concept code="183528001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychiatrist for the elderly mentally ill (procedure)"/>
+            <Concept code="183583007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Refer to mental health worker (procedure)"/>
+            <Concept code="183866009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to emergency clinic (procedure)"/>
+            <Concept code="305922005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral by mental health counselor (procedure)"/>
+            <Concept code="306136006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to liaison psychiatry service (procedure)"/>
+            <Concept code="306137002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to mental handicap psychiatry service (procedure)"/>
+            <Concept code="306138007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychogeriatric service (procedure)"/>
+            <Concept code="306204008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychogeriatric day hospital (procedure)"/>
+            <Concept code="306226009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to mental health counseling service (procedure)"/>
+            <Concept code="306227000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral for mental health counseling (procedure)"/>
+            <Concept code="306252003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to mental health counselor (procedure)"/>
+            <Concept code="306294000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychiatrist for mental handicap (procedure)"/>
+            <Concept code="308459004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychologist (procedure)"/>
+            <Concept code="308477009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to psychiatrist (procedure)"/>
+            <Concept code="390866009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to mental health team (procedure)"/>
+            <Concept code="401174001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Depression management program (regime/therapy)"/>
+            <Concept code="429387009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral by psychologist (procedure)"/>
+            <Concept code="61801003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient referral for psychiatric aftercare (procedure)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.538</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.600.559" displayName="Suicide Risk Assessment" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="225337009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Suicide risk assessment (procedure)"/>
+        </ConceptList>
+        <Source>Quality Insights of Pennsylvania</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.600.559</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+</RetrieveMultipleValueSetsResponse>

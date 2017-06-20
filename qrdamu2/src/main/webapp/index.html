@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="qrda">
+<head>
+<title>QRDA</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/style-responsive.css">
+    <link rel="shortcut icon" type="image/png" href="logo.png"/>
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/angular-toastr.min.css">
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/angular-material.min.css">
+    
+    <!-- SCRIPTS-->
+    <script src="assets/js/jquery/jquery.min.js"></script>
+    <script src="assets/js/jquery/bootstrap.min.js"></script>
+    <script src="assets/js/angular/angular.min.js"></script>
+    <script src="assets/js/angular/angular-animate.min.js"></script>
+    <script src="assets/js/angular/angular-aria.min.js"></script>
+    <script src="assets/js/angular/angular-messages.min.js"></script>
+    <script src="assets/js/angular/angular-material.min.js"></script>
+    <script src="assets/js/angular/angular-ui-router.min.js"></script>
+    <script src="assets/js/angular/ocLazyLoad.min.js"></script>
+    <script src="assets/js/jquery/moment.js"></script>
+    <script src="assets/js/angular/angular-toastr.tpls.min.js"></script>
+    <script src="assets/js/angular/moment.js"></script>
+    <script  src="assets/js/jquery/bootbox.min.js"></script>
+    <script  src="assets/js/uploader/angular-file-upload.min.js"></script>
+</head>
+<body ng-cloak>
+    <header ng-include="'src/app/Header/header.html'"></header>
+    <div ui-view class="main-section"></div>
+    <footer></footer>
+    <script src="src/app.js" type="text/javascript"></script>
+    <script src="assets/js/jquery/jquery.dataTables.min.js"></script>
+</body>
+</html>

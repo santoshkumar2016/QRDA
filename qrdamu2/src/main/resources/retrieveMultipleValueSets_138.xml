@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RetrieveMultipleValueSetsResponse xmlns="urn:ihe:iti:svs:2008">
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1240" displayName="Annual Wellness Visit" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="G0438" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit"/>
+            <Concept code="G0439" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1240</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1363:Annual Wellness Visit)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.837" displayName="Ethnicity" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="2135-2" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Hispanic or Latino"/>
+            <Concept code="2186-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Not Hispanic or Latino"/>
+        </ConceptList>
+        <Source>Centers for Disease Control National Center for Health Statistics</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.837</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1048" displayName="Face-to-Face Interaction" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="12843005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Subsequent hospital visit by physician (procedure)"/>
+            <Concept code="18170008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Subsequent nursing facility visit (procedure)"/>
+            <Concept code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Encounter for &quot;check-up&quot; (procedure)"/>
+            <Concept code="185463005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Visit out of hours (procedure)"/>
+            <Concept code="185465003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Weekend visit (procedure)"/>
+            <Concept code="19681004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Nursing evaluation of patient and report (procedure)"/>
+            <Concept code="207195004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="History and physical examination with evaluation and management of nursing facility patient (procedure)"/>
+            <Concept code="270427003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient-initiated encounter (procedure)"/>
+            <Concept code="270430005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Provider-initiated encounter (procedure)"/>
+            <Concept code="308335008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient encounter procedure (procedure)"/>
+            <Concept code="390906007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Follow-up encounter (procedure)"/>
+            <Concept code="406547006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Urgent follow-up (procedure)"/>
+            <Concept code="439708006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Home visit (procedure)"/>
+            <Concept code="87790002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Follow-up inpatient consultation visit (procedure)"/>
+            <Concept code="90526000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Initial evaluation and management of healthy individual (procedure)"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1048</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1216:Face-to-Face Interaction)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1020" displayName="Health &amp; Behavioral Assessment - Individual" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="96152" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Health and behavior intervention, each 15 minutes, face-to-face; individual"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1020</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1060:Health &amp; Behavioral Assessment - Individual)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1245" displayName="Health and Behavioral Assessment - Initial" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="96150" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Health and behavior assessment (eg, health-focused clinical interview, behavioral observations, psychophysiological monitoring, health-oriented questionnaires), each 15 minutes face-to-face with the patient; initial assessment"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1245</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1324:Health and Behavioral Assessment - Initial)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1529" displayName="Health and Behavioral Assessment, Reassessment" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="96151" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Health and behavior assessment (eg, health-focused clinical interview, behavioral observations, psychophysiological monitoring, health-oriented questionnaires), each 15 minutes face-to-face with the patient; re-assessment"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1529</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1751:Health and Behavioral Assessment, Reassessment)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1016" displayName="Home Healthcare Services" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="99341" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99342" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99343" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99344" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99345" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99347" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 15 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99348" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99349" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99350" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent face-to-face with the patient and/or family."/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1016</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1080:Home Healthcare Services)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1259" displayName="Limited Life Expectancy" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="162607003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Terminal illness - early stage (finding)"/>
+            <Concept code="162608008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Terminal illness - late stage (finding)"/>
+            <Concept code="170969009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Prognosis bad (finding)"/>
+            <Concept code="27143004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient status determination, pre-terminal (finding)"/>
+            <Concept code="300936002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Terminal illness (finding)"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1259</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1353:Limited Life Expectancy)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1007" displayName="Medical Reason" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="183932001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Procedure contraindicated (situation)"/>
+            <Concept code="183964008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Treatment not indicated (situation)"/>
+            <Concept code="183966005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Drug treatment not indicated (situation)"/>
+            <Concept code="216952002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Failure in dosage (event)"/>
+            <Concept code="266721009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Absent response to treatment (situation)"/>
+            <Concept code="269191009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Late effect of medical and surgical care complication (disorder)"/>
+            <Concept code="274512008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Drug therapy discontinued (situation)"/>
+            <Concept code="31438003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Drug resistance (disorder)"/>
+            <Concept code="35688006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Complication of medical care (disorder)"/>
+            <Concept code="371133007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Treatment modification (procedure)"/>
+            <Concept code="397745006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Medical contraindication (finding)"/>
+            <Concept code="407563006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Treatment not tolerated (situation)"/>
+            <Concept code="410534003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Not indicated (qualifier value)"/>
+            <Concept code="410536001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Contraindicated (qualifier value)"/>
+            <Concept code="416098002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Drug allergy (disorder)"/>
+            <Concept code="416406003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Procedure discontinued (situation)"/>
+            <Concept code="428119001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Procedure not indicated (situation)"/>
+            <Concept code="445528004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Treatment changed (situation)"/>
+            <Concept code="59037007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Drug intolerance (disorder)"/>
+            <Concept code="62014003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Adverse reaction to drug (disorder)"/>
+            <Concept code="79899007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Drug interaction (finding)"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1007</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.313:Medical Reason)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1011" displayName="Occupational Therapy Evaluation" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="97003" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Occupational therapy evaluation"/>
+            <Concept code="97004" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Occupational therapy re-evaluation"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1011</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1063:Occupational Therapy Evaluation)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1001" displayName="Office Visit" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="99201" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 10 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99202" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 20 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99203" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99204" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99205" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99212" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 10 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99213" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 15 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99214" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 25 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99215" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family."/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1001</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1005:Office Visit)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113762.1.4.1" displayName="ONC Administrative Sex" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" codeSystemVersion="HL7V3.0_2014-08" displayName="Female"/>
+            <Concept code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" codeSystemVersion="HL7V3.0_2014-08" displayName="Male"/>
+        </ConceptList>
+        <Source>Office of the National Coordinator for Health Information Technology</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113762.1.4.1</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2015-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1285" displayName="Ophthalmological Services" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="92002" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Ophthalmological services: medical examination and evaluation with initiation of diagnostic and treatment program; intermediate, new patient"/>
+            <Concept code="92004" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Ophthalmological services: medical examination and evaluation with initiation of diagnostic and treatment program; comprehensive, new patient, 1 or more visits"/>
+            <Concept code="92012" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Ophthalmological services: medical examination and evaluation, with initiation or continuation of diagnostic and treatment program; intermediate, established patient"/>
+            <Concept code="92014" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Ophthalmological services: medical examination and evaluation, with initiation or continuation of diagnostic and treatment program; comprehensive, established patient, 1 or more visits"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1285</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.111:Ophthalmological Services)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.3591" displayName="Payer" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="1" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MEDICARE"/>
+            <Concept code="11" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare (Managed Care)"/>
+            <Concept code="111" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare HMO"/>
+            <Concept code="112" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare PPO"/>
+            <Concept code="113" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare POS"/>
+            <Concept code="119" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Managed Care Other"/>
+            <Concept code="12" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare (Non-managed Care)"/>
+            <Concept code="121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare FFS"/>
+            <Concept code="122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Drug Benefit"/>
+            <Concept code="123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Medical Savings Account (MSA)"/>
+            <Concept code="129" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Non-managed Care Other"/>
+            <Concept code="19" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Other"/>
+            <Concept code="2" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MEDICAID"/>
+            <Concept code="21" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid (Managed Care)"/>
+            <Concept code="211" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid HMO"/>
+            <Concept code="212" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid PPO"/>
+            <Concept code="213" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid PCCM (Primary Care Case Management)"/>
+            <Concept code="219" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Managed Care Other"/>
+            <Concept code="22" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid (Non-managed Care Plan)"/>
+            <Concept code="23" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid/SCHIP"/>
+            <Concept code="24" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Applicant"/>
+            <Concept code="25" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid - Out of State"/>
+            <Concept code="29" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Other"/>
+            <Concept code="3" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="OTHER GOVERNMENT (Federal/State/Local) (excluding Department of Corrections)"/>
+            <Concept code="31" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Defense"/>
+            <Concept code="311" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE (CHAMPUS)"/>
+            <Concept code="3111" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Prime-HMO"/>
+            <Concept code="3112" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Extra-PPO"/>
+            <Concept code="3113" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Standard - Fee For Service"/>
+            <Concept code="3114" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE For Life--Medicare Supplement"/>
+            <Concept code="3115" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Reserve Select"/>
+            <Concept code="3116" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Uniformed Services Family Health Plan (USFHP) -- HMO"/>
+            <Concept code="3119" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Defense - (other)"/>
+            <Concept code="312" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Military Treatment Facility"/>
+            <Concept code="3121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Enrolled Prime-HMO"/>
+            <Concept code="3122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Non-enrolled Space Available"/>
+            <Concept code="3123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE For Life (TFL)"/>
+            <Concept code="313" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Dental --Stand Alone"/>
+            <Concept code="32" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Veterans Affairs"/>
+            <Concept code="321" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Veteran care--Care provided to Veterans"/>
+            <Concept code="3211" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Direct Care--Care provided in VA facilities"/>
+            <Concept code="3212" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indirect Care--Care provided outside VA facilities"/>
+            <Concept code="32121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Fee Basis"/>
+            <Concept code="32122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Foreign Fee/Foreign Medical Program(FMP)"/>
+            <Concept code="32123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Contract Nursing Home/Community Nursing Home"/>
+            <Concept code="32124" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State Veterans Home"/>
+            <Concept code="32125" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Sharing Agreements"/>
+            <Concept code="32126" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Federal Agency"/>
+            <Concept code="322" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Non-veteran care"/>
+            <Concept code="3221" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Civilian Health and Medical Program for the VA (CHAMPVA)"/>
+            <Concept code="3222" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Spina Bifida Health Care Program (SB)"/>
+            <Concept code="3223" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Children of Women Vietnam Veterans (CWVV)"/>
+            <Concept code="3229" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other non-veteran care"/>
+            <Concept code="33" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service or Tribe"/>
+            <Concept code="331" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Regular"/>
+            <Concept code="332" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Contract"/>
+            <Concept code="333" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Managed Care"/>
+            <Concept code="334" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Tribe - Sponsored Coverage"/>
+            <Concept code="34" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HRSA Program"/>
+            <Concept code="341" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Title V (MCH Block Grant)"/>
+            <Concept code="342" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Migrant Health Program"/>
+            <Concept code="343" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Ryan White Act"/>
+            <Concept code="349" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other"/>
+            <Concept code="35" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Black Lung"/>
+            <Concept code="36" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State Government"/>
+            <Concept code="361" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State SCHIP program (codes for individual states)"/>
+            <Concept code="362" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Specific state programs (list/ local code)"/>
+            <Concept code="369" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State, not otherwise specified (other state)"/>
+            <Concept code="37" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local Government"/>
+            <Concept code="371" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local - Managed care"/>
+            <Concept code="3711" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HMO"/>
+            <Concept code="3712" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PPO"/>
+            <Concept code="3713" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="POS"/>
+            <Concept code="372" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="FFS/Indemnity"/>
+            <Concept code="379" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local, not otherwise specified (other local, county)"/>
+            <Concept code="38" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Government (Federal, State, Local not specified)"/>
+            <Concept code="381" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified managed care"/>
+            <Concept code="3811" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - HMO"/>
+            <Concept code="3812" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - PPO"/>
+            <Concept code="3813" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - POS"/>
+            <Concept code="3819" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - not specified managed care"/>
+            <Concept code="382" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - FFS"/>
+            <Concept code="389" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - Other"/>
+            <Concept code="39" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Federal"/>
+            <Concept code="4" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="DEPARTMENTS OF CORRECTIONS"/>
+            <Concept code="41" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Federal"/>
+            <Concept code="42" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections State"/>
+            <Concept code="43" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Local"/>
+            <Concept code="44" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Unknown Level"/>
+            <Concept code="5" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PRIVATE HEALTH INSURANCE"/>
+            <Concept code="51" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care (Private)"/>
+            <Concept code="511" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - HMO"/>
+            <Concept code="512" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - PPO"/>
+            <Concept code="513" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - POS"/>
+            <Concept code="514" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Exclusive Provider Organization"/>
+            <Concept code="515" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Gatekeeper PPO (GPPO)"/>
+            <Concept code="519" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care, Other (non HMO)"/>
+            <Concept code="52" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Private Health Insurance - Indemnity"/>
+            <Concept code="521" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Indemnity"/>
+            <Concept code="522" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Self-insured (ERISA) Administrative Services Only (ASO) plan"/>
+            <Concept code="523" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare supplemental policy (as second payer)"/>
+            <Concept code="529" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Private health insurance-other commercial Indemnity"/>
+            <Concept code="53" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care (private) or private health insurance (indemnity), not otherwise specified"/>
+            <Concept code="54" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Organized Delivery System"/>
+            <Concept code="55" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Small Employer Purchasing Group"/>
+            <Concept code="59" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Private Insurance"/>
+            <Concept code="6" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BLUE CROSS/BLUE SHIELD"/>
+            <Concept code="61" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care"/>
+            <Concept code="611" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - HMO"/>
+            <Concept code="612" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - PPO"/>
+            <Concept code="613" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - POS"/>
+            <Concept code="619" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - Other"/>
+            <Concept code="62" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Indemnity"/>
+            <Concept code="63" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Out of State"/>
+            <Concept code="64" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Unspecified"/>
+            <Concept code="69" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Other"/>
+            <Concept code="7" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MANAGED CARE, UNSPECIFIED (to be used only if one can't distinguish public from private)"/>
+            <Concept code="71" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HMO"/>
+            <Concept code="72" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PPO"/>
+            <Concept code="73" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="POS"/>
+            <Concept code="79" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Managed Care, Unknown if public or private"/>
+            <Concept code="8" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="NO PAYMENT from an Organization/Agency/Program/Private Payer Listed"/>
+            <Concept code="81" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Self-pay"/>
+            <Concept code="82" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Charge"/>
+            <Concept code="821" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Charity"/>
+            <Concept code="822" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Professional Courtesy"/>
+            <Concept code="823" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Research/Clinical Trial"/>
+            <Concept code="83" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Refusal to Pay/Bad Debt"/>
+            <Concept code="84" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Hill Burton Free Care"/>
+            <Concept code="85" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Research/Donor"/>
+            <Concept code="89" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Payment, Other"/>
+            <Concept code="9" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MISCELLANEOUS/OTHER"/>
+            <Concept code="91" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Foreign National"/>
+            <Concept code="92" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other (Non-government)"/>
+            <Concept code="93" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Disability Insurance"/>
+            <Concept code="94" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Long-term Care Insurance"/>
+            <Concept code="95" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Compensation"/>
+            <Concept code="951" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp HMO"/>
+            <Concept code="953" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp Fee-for-Service"/>
+            <Concept code="954" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp Other Managed Care"/>
+            <Concept code="959" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp, Other unspecified"/>
+            <Concept code="96" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Auto Insurance (no fault)"/>
+            <Concept code="98" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other specified (includes Hospice - Unspecified plan)"/>
+            <Concept code="99" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Typology Code available for payment source"/>
+            <Concept code="9999" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Unavailable / Unknown"/>
+        </ConceptList>
+        <Source>Public Health Data Standards Consortium</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.3591</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1025" displayName="Preventive Care Services - Established Office Visit, 18 and Up" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="99395" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 18-39 years"/>
+            <Concept code="99396" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 40-64 years"/>
+            <Concept code="99397" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 65 years and older"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1025</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1125:Preventive Care Services - Established Office Visit, 18 and Up)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1027" displayName="Preventive Care Services - Group Counseling" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="99411" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Preventive medicine counseling and/or risk factor reduction intervention(s) provided to individuals in a group setting (separate procedure); approximately 30 minutes"/>
+            <Concept code="99412" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Preventive medicine counseling and/or risk factor reduction intervention(s) provided to individuals in a group setting (separate procedure); approximately 60 minutes"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1027</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1135:Preventive Care Services - Group Counseling)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1030" displayName="Preventive Care Services - Other" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="99420" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Administration and interpretation of health risk assessment instrument (eg, health hazard appraisal)"/>
+            <Concept code="99429" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Unlisted preventive medicine service"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1030</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1150:Preventive Care Services - Other)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1026" displayName="Preventive Care Services-Individual Counseling" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="99401" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Preventive medicine counseling and/or risk factor reduction intervention(s) provided to an individual (separate procedure); approximately 15 minutes"/>
+            <Concept code="99402" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Preventive medicine counseling and/or risk factor reduction intervention(s) provided to an individual (separate procedure); approximately 30 minutes"/>
+            <Concept code="99403" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Preventive medicine counseling and/or risk factor reduction intervention(s) provided to an individual (separate procedure); approximately 45 minutes"/>
+            <Concept code="99404" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Preventive medicine counseling and/or risk factor reduction intervention(s) provided to an individual (separate procedure); approximately 60 minutes"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1026</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1130:Preventive Care Services-Individual Counseling)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1023" displayName="Preventive Care Services-Initial Office Visit, 18 and Up" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="99385" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 18-39 years"/>
+            <Concept code="99386" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 40-64 years"/>
+            <Concept code="99387" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 65 years and older"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1023</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1115:Preventive Care Services-Initial Office Visit, 18 and Up)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1492" displayName="Psych Visit - Diagnostic Evaluation" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="90791" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychiatric diagnostic evaluation"/>
+            <Concept code="90792" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychiatric diagnostic evaluation with medical services"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1492</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1923:Psych Visit - Diagnostic Evaluation)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1496" displayName="Psych Visit - Psychotherapy" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="90832" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 30 minutes with patient and/or family member"/>
+            <Concept code="90834" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 45 minutes with patient and/or family member"/>
+            <Concept code="90837" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 60 minutes with patient and/or family member"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1496</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1927:Psych Visit - Psychotherapy)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1141" displayName="Psychoanalysis" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="90845" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychoanalysis"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1141</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1243:Psychoanalysis)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.836" displayName="Race" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="1002-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="American Indian or Alaska Native"/>
+            <Concept code="2028-9" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Asian"/>
+            <Concept code="2054-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Black or African American"/>
+            <Concept code="2076-8" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Native Hawaiian or Other Pacific Islander"/>
+            <Concept code="2106-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="White"/>
+            <Concept code="2131-1" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Other Race"/>
+        </ConceptList>
+        <Source>Centers for Disease Control National Center for Health Statistics</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.836</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1530" displayName="Speech and Hearing Evaluation" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="92521" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Evaluation of speech fluency (eg, stuttering, cluttering)"/>
+            <Concept code="92522" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Evaluation of speech sound production (eg, articulation, phonological process, apraxia, dysarthria)"/>
+            <Concept code="92523" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Evaluation of speech sound production (eg, articulation, phonological process, apraxia, dysarthria); with evaluation of language comprehension and expression (eg, receptive and expressive language)"/>
+            <Concept code="92524" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Behavioral and qualitative analysis of voice and resonance"/>
+            <Concept code="92540" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Basic vestibular evaluation, includes spontaneous nystagmus test with eccentric gaze fixation nystagmus, with recording, positional nystagmus test, minimum of 4 positions, with recording, optokinetic nystagmus test, bidirectional foveal and peripheral stimulation, with recording, and oscillating tracking test, with recording"/>
+            <Concept code="92557" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Comprehensive audiometry threshold evaluation and speech recognition (92553 and 92556 combined)"/>
+            <Concept code="92625" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Assessment of tinnitus (includes pitch, loudness matching, and masking)"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1530</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1752:Speech and Hearing Evaluation)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1189" displayName="Tobacco Non-User" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="105539002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Non-smoker for personal reasons (finding)"/>
+            <Concept code="105540000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Non-smoker for religious reasons (finding)"/>
+            <Concept code="105541001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Non-smoker for medical reasons (finding)"/>
+            <Concept code="160618006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Current non-smoker (finding)"/>
+            <Concept code="160620009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-pipe smoker (finding)"/>
+            <Concept code="160621008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-cigar smoker (finding)"/>
+            <Concept code="228501004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Does not use moist powdered tobacco (finding)"/>
+            <Concept code="228502006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Never used moist powdered tobacco (finding)"/>
+            <Concept code="228503001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-user of moist powdered tobacco (finding)"/>
+            <Concept code="228512004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Never chewed tobacco (finding)"/>
+            <Concept code="266919005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Never smoked tobacco (finding)"/>
+            <Concept code="266921000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-trivial cigarette smoker (&lt;1/day) (finding)"/>
+            <Concept code="266922007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-light cigarette smoker (1-9/day) (finding)"/>
+            <Concept code="266923002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-moderate cigarette smoker (10-19/day) (finding)"/>
+            <Concept code="266924008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-heavy cigarette smoker (20-39/day) (finding)"/>
+            <Concept code="266925009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-very heavy cigarette smoker (40+/day) (finding)"/>
+            <Concept code="266928006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-cigarette smoker amount unknown (finding)"/>
+            <Concept code="281018007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-cigarette smoker (finding)"/>
+            <Concept code="360890004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Intolerant ex-smoker (finding)"/>
+            <Concept code="360900008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Aggressive ex-smoker (finding)"/>
+            <Concept code="360918006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Aggressive non-smoker (finding)"/>
+            <Concept code="360929005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Intolerant non-smoker (finding)"/>
+            <Concept code="405746006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Current non smoker but past smoking history unknown (finding)"/>
+            <Concept code="53896009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Tolerant ex-smoker (finding)"/>
+            <Concept code="8392000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Non-smoker (finding)"/>
+            <Concept code="8517006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Ex-smoker (finding)"/>
+            <Concept code="87739003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Tolerant non-smoker (finding)"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1189</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.511:Tobacco Non-User)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.509" displayName="Tobacco Use Cessation Counseling" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="171055003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Pregnancy smoking education (procedure)"/>
+            <Concept code="185792005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Stop smoking monitoring first letter (procedure)"/>
+            <Concept code="185793000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Stop smoking monitoring second letter (procedure)"/>
+            <Concept code="185794006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Stop smoking monitoring third letter (procedure)"/>
+            <Concept code="185795007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Stop smoking monitoring verbal invite (procedure)"/>
+            <Concept code="185796008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Stop smoking monitoring telephone invite (procedure)"/>
+            <Concept code="225323000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Smoking cessation education (procedure)"/>
+            <Concept code="225324006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Smoking effects education (procedure)"/>
+            <Concept code="310429001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Smoking monitoring invitation (procedure)"/>
+            <Concept code="315232003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Referral to stop-smoking clinic (procedure)"/>
+            <Concept code="384742004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Smoking cessation assistance (regime/therapy)"/>
+            <Concept code="99406" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Smoking and tobacco use cessation counseling visit; intermediate, greater than 3 minutes up to 10 minutes"/>
+            <Concept code="99407" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Smoking and tobacco use cessation counseling visit; intensive, greater than 10 minutes"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.509</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.424:Tobacco Use Cessation Counseling),(2.16.840.1.113883.3.526.2.425:Tobacco Use Cessation Counseling)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1190" displayName="Tobacco Use Cessation Pharmacotherapy" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="1232585" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 450 MG Extended Release Oral Tablet"/>
+            <Concept code="151226" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="topiramate 50 MG Oral Tablet"/>
+            <Concept code="1551468" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 90 MG / Naltrexone hydrochloride 8 MG Extended Release Oral Tablet"/>
+            <Concept code="198029" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Nicotine 0.583 MG/HR Transdermal Patch"/>
+            <Concept code="198030" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Nicotine 0.875 MG/HR Transdermal Patch"/>
+            <Concept code="198031" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Nicotine 0.292 MG/HR Transdermal Patch"/>
+            <Concept code="198045" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 10 MG Oral Capsule"/>
+            <Concept code="198046" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 50 MG Oral Capsule"/>
+            <Concept code="198047" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 75 MG Oral Capsule"/>
+            <Concept code="199888" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="topiramate 25 MG Oral Tablet"/>
+            <Concept code="199889" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="topiramate 100 MG Oral Tablet"/>
+            <Concept code="199890" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="topiramate 200 MG Oral Tablet"/>
+            <Concept code="205315" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="topiramate 25 MG Oral Capsule"/>
+            <Concept code="205316" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="topiramate 15 MG Oral Capsule"/>
+            <Concept code="250983" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nicotine 4 MG/ACTUAT Inhalant Solution"/>
+            <Concept code="311975" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nicotine 4 MG Chewing Gum"/>
+            <Concept code="312036" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 2 MG/ML Oral Solution"/>
+            <Concept code="314119" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nicotine 2 MG Chewing Gum"/>
+            <Concept code="317136" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 25 MG Oral Capsule"/>
+            <Concept code="359817" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nicotine 2 MG Oral Lozenge"/>
+            <Concept code="359818" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nicotine 4 MG Oral Lozenge"/>
+            <Concept code="636671" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="varenicline 0.5 MG Oral Tablet"/>
+            <Concept code="636676" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="varenicline 1 MG Oral Tablet"/>
+            <Concept code="749289" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="{11 (varenicline 0.5 MG Oral Tablet) / 42 (varenicline 1 MG Oral Tablet) } Pack"/>
+            <Concept code="749788" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="{56 (varenicline 1 MG Oral Tablet) } Pack"/>
+            <Concept code="892244" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="{14 (24 HR Nicotine 0.292 MG/HR Transdermal Patch) / 14 (24 HR Nicotine 0.583 MG/HR Transdermal Patch) / 28 (24 HR Nicotine 0.875 MG/HR Transdermal Patch) } Pack"/>
+            <Concept code="896100" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="200 ACTUAT Nicotine 0.5 MG/ACTUAT Nasal Inhaler"/>
+            <Concept code="966531" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="168 ACTUAT Nicotine 4 MG/ACTUAT Metered Dose Inhaler"/>
+            <Concept code="993503" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 100 MG Extended Release Oral Tablet"/>
+            <Concept code="993518" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet"/>
+            <Concept code="993536" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 200 MG Extended Release Oral Tablet"/>
+            <Concept code="993541" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet"/>
+            <Concept code="993550" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 174 MG Extended Release Oral Tablet"/>
+            <Concept code="993557" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 300 MG Extended Release Oral Tablet"/>
+            <Concept code="993567" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 348 MG Extended Release Oral Tablet"/>
+            <Concept code="993681" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 522 MG Extended Release Oral Tablet"/>
+            <Concept code="998671" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="168 HR Clonidine 0.00417 MG/HR Transdermal Patch"/>
+            <Concept code="998675" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="168 HR Clonidine 0.00833 MG/HR Transdermal Patch"/>
+            <Concept code="998679" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="168 HR Clonidine 0.0125 MG/HR Transdermal Patch"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1190</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.423:Tobacco Use Cessation Pharmacotherapy)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1278" displayName="Tobacco Use Screening" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="39240-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.54" displayName="Tobacco use CPHS"/>
+            <Concept code="68535-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.54" displayName="Have you used tobacco in the last 30 days [SAMHSA]"/>
+            <Concept code="68536-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.54" displayName="Have you used smokeless tobacco product in the last 30 days [SAMHSA]"/>
+            <Concept code="72166-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="2.54" displayName="Tobacco smoking status NHIS"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1278</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1372:Tobacco Use Screening)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1170" displayName="Tobacco User" version="MU2 Update 2017-01-06">
+        <ConceptList>
+            <Concept code="160603005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Light cigarette smoker (1-9 cigs/day) (finding)"/>
+            <Concept code="160604004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate cigarette smoker (10-19 cigs/day) (finding)"/>
+            <Concept code="160605003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Heavy cigarette smoker (20-39 cigs/day) (finding)"/>
+            <Concept code="160606002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Very heavy cigarette smoker (40+ cigs/day) (finding)"/>
+            <Concept code="160619003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Rolls own cigarettes (finding)"/>
+            <Concept code="228494002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Snuff user (finding)"/>
+            <Concept code="228504007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="User of moist powdered tobacco (finding)"/>
+            <Concept code="228514003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chews plug tobacco (finding)"/>
+            <Concept code="228515002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chews twist tobacco (finding)"/>
+            <Concept code="228516001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chews loose leaf tobacco (finding)"/>
+            <Concept code="228517005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chews fine cut tobacco (finding)"/>
+            <Concept code="228518000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chews products containing tobacco (finding)"/>
+            <Concept code="230059006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Occasional cigarette smoker (finding)"/>
+            <Concept code="230060001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Light cigarette smoker (finding)"/>
+            <Concept code="230062009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate cigarette smoker (finding)"/>
+            <Concept code="230063004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Heavy cigarette smoker (finding)"/>
+            <Concept code="230064005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Very heavy cigarette smoker (finding)"/>
+            <Concept code="230065006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chain smoker (finding)"/>
+            <Concept code="266920004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Trivial cigarette smoker (less than one cigarette/day) (finding)"/>
+            <Concept code="428041000124106" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Occasional tobacco smoker (finding)"/>
+            <Concept code="428061000124105" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Light tobacco smoker (finding)"/>
+            <Concept code="428071000124103" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Heavy tobacco smoker (finding)"/>
+            <Concept code="449868002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Smokes tobacco daily (finding)"/>
+            <Concept code="59978006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Cigar smoker (finding)"/>
+            <Concept code="65568007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Cigarette smoker (finding)"/>
+            <Concept code="77176002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Smoker (finding)"/>
+            <Concept code="81703003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chews tobacco (finding)"/>
+            <Concept code="82302008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Pipe smoker (finding)"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1170</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.422:Tobacco User)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+</RetrieveMultipleValueSetsResponse>

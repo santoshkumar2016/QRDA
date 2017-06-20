@@ -1,0 +1,149 @@
+<div id="container">
+	<div id="loginbox" style="margin-top: 70px; margin-right: 100px;"
+		class="mainbox col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-4">
+		<div class="panel panel-default">
+			<div class="panel-heading"
+				style="background: #012b72; color: #FFFFFF">
+				<h4>CQM</h4>
+			</div>
+			<div class="panel-body">
+			
+				<h1>
+					<i class="fa fa-hospital-o"></i>....<i class="fa fa-ambulance"></i>	QRDA
+				</h1>
+				<br>
+				<div class="row" ng-class="{'blur': qrdaCtrl.progessDisplay}">
+					<div class="col-md-12">
+
+						<form name="qrdaCtrl.form" class="form-horizontal"
+							ng-submit="qrdaCtrl.formSubmit()">
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label"
+									style="text-align: left;padding-top: 2%;">Provider <span class="required">*</span></label>
+								<div class="col-sm-10">
+										<md-input-container style="width: 100%;">
+								        <label>Select Providers</label>
+								        <md-select name="provider" ng-model="qrdaCtrl.provider"
+								                   md-on-close="qrdaCtrl.clearSearchTermProvider()"
+								                   data-md-container-class="selectdemoSelectHeader"
+								                   multiple required>
+								          <md-select-header class="demo-select-header">
+								            <input ng-model="qrdaCtrl.searchTermProvider"
+								                   type="search"
+								                   placeholder="Search for a provider"
+								                   class="demo-header-searchbox md-text">
+								          </md-select-header>
+								          <md-optgroup label="providers">
+								            <md-option ng-value="provider" ng-repeat="provider in qrdaCtrl.providerList |
+								              filter:qrdaCtrl.searchTermProvider">{{provider}}</md-option>
+								          </md-optgroup>
+								        </md-select>
+								      </md-input-container>
+								      <div class="error-messages" ng-messages="qrdaCtrl.form.provider.$error" ng-show="qrdaCtrl.form.$submitted || qrdaCtrl.form.provider.$dirty">
+					                      <div ng-message="required" style="color: red">*Provider Required</div>
+					                  </div>
+								</div>
+
+							</div>
+
+							<div class="form-group">
+								<label class="col-sm-2 control-label"
+									style="text-align: left;padding-top: 2%;">Measure <span class="required">*</span></label>
+
+								<div class="col-sm-10">
+									<md-input-container style="width: 100%;">
+							        <label>Select Measures</label>
+							        <md-select ng-model="qrdaCtrl.measures" name="measures"
+							                   md-on-close="qrdaCtrl.clearSearchTerm()"
+							                   data-md-container-class="selectdemoSelectHeader"
+							                   multiple required>
+							          <md-select-header class="demo-select-header">
+							            <input ng-model="qrdaCtrl.searchTerm"
+							                   type="search"
+							                   placeholder="Search for a measure"
+							                   class="demo-header-searchbox md-text">
+							          </md-select-header>
+							          <md-optgroup label="measures">
+							            <md-option ng-value="measure.id" ng-repeat="measure in qrdaCtrl.measureList |
+							              filter:qrdaCtrl.searchTerm">{{measure.id}}</md-option>
+							          </md-optgroup>
+							        </md-select>
+							      </md-input-container>
+							      <div class="error-messages" ng-messages="qrdaCtrl.form.measures.$error" ng-show="qrdaCtrl.form.$submitted || qrdaCtrl.form.measures.$dirty">
+				                      <div ng-message="required" style="color: red">*Measure Required</div>
+				                  </div>
+								</div>
+							</div>
+							<br>
+							<div class="form-group" class="col-md-12">
+								<div class="col-md-6 ">
+									<label for="txt-start-date"
+										class=" col-md-4  control-label paddingZeroLeft"
+										style="text-align: left; padding-left: 0px">Start Date
+										<span class="required">*</span>
+									</label>
+									<div class="col-md-8" style="padding-left: 0px;">
+										<!-- 	<input type="date" id="txt-start-date" class="form-control" ng-model="qrdaCtrl.startDate" /> -->
+										<md-datepicker ng-model="qrdaCtrl.startDate" name="startDate" required></md-datepicker>
+										<div class="error-messages" ng-messages="qrdaCtrl.form.startDate.$error" ng-show="qrdaCtrl.form.$submitted || qrdaCtrl.form.startDate.$dirty">
+					                      <div ng-message="required" style="color: red">*Start-Date Required</div>
+					                  	</div>
+									</div>
+								</div>
+								<div class="col-md-6 ">
+									<label for="txt-end-date"
+										class=" col-md-4  control-label paddingZeroLeft"
+										style="text-align: left; padding-left: 0px">End Date
+										<span class="required">*</span>
+									</label>
+									<div class="col-md-8" style="padding-left: 0px;">
+										<!-- 	<input type="date" id="txt-start-date" class="form-control" ng-model="qrdaCtrl.startDate" /> -->
+										<md-datepicker ng-model="qrdaCtrl.endDate" name="endDate" required></md-datepicker>
+										<div class="error-messages" ng-messages="qrdaCtrl.form.endDate.$error" ng-show="qrdaCtrl.form.$submitted || qrdaCtrl.form.endDate.$dirty">
+					                      <div ng-message="required" style="color: red">*End-Date Required</div>
+					                  	</div>
+									</div>
+								</div>
+							</div><br><br>
+							<div class="text-left">
+								<button class="btn btn-primary" type="submit"
+									data-dismiss="modal">Submit</button>
+								<button class="btn btn-warning" type="button" ng-click="qrdaCtrl.showUploader($event)">Import</button>
+								<a class="btn btn-success" href="qrda/downloadMU2files" ng-show="qrdaCtrl.showGrid" 
+									data-dismiss="modal">Download</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div ng-show="qrdaCtrl.showGrid">
+		<div id="gridBox" class="mainbox col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-4" style="height: 700px;">
+		<hr>
+		<br>
+	<br>
+	<div class="panel-heading"
+				style="background: #012b72; color: #FFFFFF">
+				<h4>Category - 1</h4>
+			</div><br><br>
+		<table id="qrdaGrid" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+            	<th>Provider</th>
+                <th>CQM</th>
+                <th>CID</th>
+                <th>Last Name</th>
+                <th>First Name</th>
+                <th>Gender</th>
+                <th>Birth Date</th>
+            </tr>
+        </thead>
+    </table>
+	</div>
+	</div>
+</div>
+<div ng-show="qrdaCtrl.progessDisplay" class="loader" layout="row" layout-sm="column" layout-align="space-around">
+	<md-progress-circular md-mode="indeterminate"></md-progress-circular>
+</div>

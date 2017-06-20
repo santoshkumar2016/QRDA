@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RetrieveMultipleValueSetsResponse xmlns="urn:ihe:iti:svs:2008">
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1240" displayName="Annual Wellness Visit" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="G0438" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Annual wellness visit; includes a personalized prevention plan of service (pps), initial visit"/>
+            <Concept code="G0439" codeSystem="2.16.840.1.113883.6.285" codeSystemName="HCPCS" codeSystemVersion="2016" displayName="Annual wellness visit, includes a personalized prevention plan of service (pps), subsequent visit"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1240</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1363:Annual Wellness Visit)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.196.12.1213" displayName="Antidepressant Medication" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="1000048" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 10 MG Oral Capsule"/>
+            <Concept code="1000054" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 10 MG/ML Oral Solution"/>
+            <Concept code="1000058" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 100 MG Oral Capsule"/>
+            <Concept code="1000064" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 150 MG Oral Capsule"/>
+            <Concept code="1000070" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 25 MG Oral Capsule"/>
+            <Concept code="1000076" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 50 MG Oral Capsule"/>
+            <Concept code="1000097" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin Hydrochloride 75 MG Oral Capsule"/>
+            <Concept code="104837" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Isocarboxazid 10 MG Oral Tablet"/>
+            <Concept code="1086772" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="vilazodone hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="1086778" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="vilazodone hydrochloride 20 MG Oral Tablet"/>
+            <Concept code="1086784" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="vilazodone hydrochloride 40 MG Oral Tablet"/>
+            <Concept code="1086789" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="{7 (vilazodone hydrochloride 10 MG Oral Tablet) / 7 (vilazodone hydrochloride 20 MG Oral Tablet) / 16 (vilazodone hydrochloride 40 MG Oral Tablet) } Pack"/>
+            <Concept code="1098649" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="1098666" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 150 MG Oral Tablet"/>
+            <Concept code="1098670" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 200 MG Oral Tablet"/>
+            <Concept code="1098674" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 250 MG Oral Tablet"/>
+            <Concept code="1098678" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nefazodone hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="1099288" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="1099292" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="1099296" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 150 MG Oral Tablet"/>
+            <Concept code="1099300" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="1099304" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="1099316" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Desipramine Hydrochloride 75 MG Oral Tablet"/>
+            <Concept code="1190110" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 60 MG Oral Tablet"/>
+            <Concept code="1232585" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 450 MG Extended Release Oral Tablet"/>
+            <Concept code="1298857" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Maprotiline Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="1298861" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Maprotiline Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="1298870" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Maprotiline Hydrochloride 75 MG Oral Tablet"/>
+            <Concept code="1430122" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 7.5 MG Oral Capsule"/>
+            <Concept code="1607617" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Desvenlafaxine 25 MG Extended Release Oral Tablet"/>
+            <Concept code="197363" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amoxapine 100 MG Oral Tablet"/>
+            <Concept code="197364" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amoxapine 150 MG Oral Tablet"/>
+            <Concept code="197365" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amoxapine 25 MG Oral Tablet"/>
+            <Concept code="197366" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amoxapine 50 MG Oral Tablet"/>
+            <Concept code="198045" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 10 MG Oral Capsule"/>
+            <Concept code="198046" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 50 MG Oral Capsule"/>
+            <Concept code="198047" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 75 MG Oral Capsule"/>
+            <Concept code="199283" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 10 MG Oral Tablet"/>
+            <Concept code="199820" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 25 MG Oral Tablet"/>
+            <Concept code="200371" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 20 MG Oral Tablet"/>
+            <Concept code="245373" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 50 MG Oral Tablet"/>
+            <Concept code="248642" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 20 MG Oral Tablet"/>
+            <Concept code="251200" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 200 MG Oral Tablet"/>
+            <Concept code="283406" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 15 MG Disintegrating Oral Tablet"/>
+            <Concept code="283407" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 30 MG Disintegrating Oral Tablet"/>
+            <Concept code="283485" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 45 MG Disintegrating Oral Tablet"/>
+            <Concept code="283672" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 10 MG Oral Tablet"/>
+            <Concept code="309313" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 2 MG/ML Oral Solution"/>
+            <Concept code="309314" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 40 MG Oral Tablet"/>
+            <Concept code="310384" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 10 MG Oral Capsule"/>
+            <Concept code="310385" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 20 MG Oral Capsule"/>
+            <Concept code="310386" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 4 MG/ML Oral Solution"/>
+            <Concept code="311725" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 15 MG Oral Tablet"/>
+            <Concept code="311726" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 45 MG Oral Tablet"/>
+            <Concept code="312036" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 2 MG/ML Oral Solution"/>
+            <Concept code="312241" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 10 MG Oral Tablet"/>
+            <Concept code="312242" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 2 MG/ML Oral Suspension"/>
+            <Concept code="312243" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 30 MG Oral Tablet"/>
+            <Concept code="312244" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 40 MG Oral Tablet"/>
+            <Concept code="312347" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Phenelzine 15 MG Oral Tablet"/>
+            <Concept code="312938" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 100 MG Oral Tablet"/>
+            <Concept code="312940" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 25 MG Oral Tablet"/>
+            <Concept code="312941" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 50 MG Oral Tablet"/>
+            <Concept code="313447" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Tranylcypromine 10 MG Oral Tablet"/>
+            <Concept code="313496" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 100 MG Oral Capsule"/>
+            <Concept code="313497" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 100 MG Oral Tablet"/>
+            <Concept code="313498" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 25 MG Oral Capsule"/>
+            <Concept code="313499" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trimipramine 50 MG Oral Capsule"/>
+            <Concept code="313580" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 100 MG Oral Tablet"/>
+            <Concept code="313581" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 150 MG Extended Release Oral Capsule"/>
+            <Concept code="313582" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 25 MG Oral Tablet"/>
+            <Concept code="313583" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 37.5 MG Extended Release Oral Capsule"/>
+            <Concept code="313584" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 37.5 MG Oral Tablet"/>
+            <Concept code="313585" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 75 MG Extended Release Oral Capsule"/>
+            <Concept code="313586" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 75 MG Oral Tablet"/>
+            <Concept code="313989" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 40 MG Oral Capsule"/>
+            <Concept code="313990" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 10 MG Oral Tablet"/>
+            <Concept code="313995" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 90 MG Delayed Release Oral Capsule"/>
+            <Concept code="314111" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 30 MG Oral Tablet"/>
+            <Concept code="314199" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 20 MG Oral Tablet"/>
+            <Concept code="314277" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="venlafaxine 50 MG Oral Tablet"/>
+            <Concept code="317136" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Nortriptyline 25 MG Oral Capsule"/>
+            <Concept code="349332" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Escitalopram 10 MG Oral Tablet"/>
+            <Concept code="351249" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Escitalopram 5 MG Oral Tablet"/>
+            <Concept code="351250" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Escitalopram 20 MG Oral Tablet"/>
+            <Concept code="351285" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Escitalopram 1 MG/ML Oral Solution"/>
+            <Concept code="403969" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 25 MG / olanzapine 6 MG Oral Capsule"/>
+            <Concept code="403970" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 25 MG / olanzapine 12 MG Oral Capsule"/>
+            <Concept code="403971" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 50 MG / olanzapine 12 MG Oral Capsule"/>
+            <Concept code="403972" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 50 MG / olanzapine 6 MG Oral Capsule"/>
+            <Concept code="476809" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Mirtazapine 7.5 MG Oral Tablet"/>
+            <Concept code="562790" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 12.5 MG Extended Release Oral Tablet"/>
+            <Concept code="562791" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 25 MG Extended Release Oral Tablet"/>
+            <Concept code="562815" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Paroxetine 37.5 MG Extended Release Oral Tablet"/>
+            <Concept code="596926" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="duloxetine 20 MG Delayed Release Oral Capsule"/>
+            <Concept code="596930" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="duloxetine 30 MG Delayed Release Oral Capsule"/>
+            <Concept code="596934" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="duloxetine 60 MG Delayed Release Oral Capsule"/>
+            <Concept code="616402" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="duloxetine 40 MG Delayed Release Oral Capsule"/>
+            <Concept code="721787" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 25 MG / olanzapine 3 MG Oral Capsule"/>
+            <Concept code="730440" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 10 MG Oral Capsule"/>
+            <Concept code="730441" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 20 MG Oral Capsule"/>
+            <Concept code="730442" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Citalopram 40 MG Oral Capsule"/>
+            <Concept code="790264" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Desvenlafaxine 100 MG Extended Release Oral Tablet"/>
+            <Concept code="790288" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Desvenlafaxine 50 MG Extended Release Oral Tablet"/>
+            <Concept code="794947" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 150 MG Oral Tablet"/>
+            <Concept code="803293" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluoxetine 15 MG Oral Tablet"/>
+            <Concept code="808744" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 150 MG Extended Release Oral Tablet"/>
+            <Concept code="808748" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 225 MG Extended Release Oral Tablet"/>
+            <Concept code="808751" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 37.5 MG Extended Release Oral Tablet"/>
+            <Concept code="808753" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR venlafaxine 75 MG Extended Release Oral Tablet"/>
+            <Concept code="835564" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="835568" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="835572" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine pamoate 75 MG Oral Capsule"/>
+            <Concept code="835577" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine pamoate 150 MG Oral Capsule"/>
+            <Concept code="835582" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine Hydrochloride 12.5 MG/ML Injectable Solution"/>
+            <Concept code="835589" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine pamoate 125 MG Oral Capsule"/>
+            <Concept code="835591" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine pamoate 100 MG Oral Capsule"/>
+            <Concept code="835593" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Imipramine Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="856364" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trazodone Hydrochloride 150 MG Oral Tablet"/>
+            <Concept code="856369" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trazodone Hydrochloride 300 MG Oral Tablet"/>
+            <Concept code="856373" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trazodone Hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="856377" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Trazodone Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="856706" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 10 MG / Perphenazine 2 MG Oral Tablet"/>
+            <Concept code="856720" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 10 MG / Perphenazine 4 MG Oral Tablet"/>
+            <Concept code="856762" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="856769" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 12.5 MG / Chlordiazepoxide 5 MG Oral Tablet"/>
+            <Concept code="856773" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 150 MG Oral Tablet"/>
+            <Concept code="856783" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="856792" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 25 MG / Chlordiazepoxide 10 MG Oral Tablet"/>
+            <Concept code="856797" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 25 MG / Perphenazine 2 MG Oral Tablet"/>
+            <Concept code="856825" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 25 MG / Perphenazine 4 MG Oral Tablet"/>
+            <Concept code="856834" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="856840" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 50 MG / Perphenazine 4 MG Oral Tablet"/>
+            <Concept code="856845" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="856853" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Amitriptyline Hydrochloride 75 MG Oral Tablet"/>
+            <Concept code="857291" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="857296" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 25 MG Oral Tablet"/>
+            <Concept code="857297" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 25 MG Oral Capsule"/>
+            <Concept code="857301" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 50 MG Oral Capsule"/>
+            <Concept code="857305" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 75 MG Oral Capsule"/>
+            <Concept code="857315" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Clomipramine Hydrochloride 50 MG Oral Tablet"/>
+            <Concept code="861064" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Sertraline 20 MG/ML Oral Solution"/>
+            <Concept code="865206" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR selegiline hydrochloride 0.25 MG/HR Transdermal Patch"/>
+            <Concept code="865210" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR selegiline hydrochloride 0.375 MG/HR Transdermal Patch"/>
+            <Concept code="865214" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR selegiline hydrochloride 0.5 MG/HR Transdermal Patch"/>
+            <Concept code="898697" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Trazodone Hydrochloride 150 MG Extended Release Oral Tablet"/>
+            <Concept code="898704" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Trazodone Hydrochloride 300 MG Extended Release Oral Tablet"/>
+            <Concept code="903873" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Fluvoxamine Maleate 100 MG Extended Release Oral Capsule"/>
+            <Concept code="903879" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Fluvoxamine Maleate 150 MG Extended Release Oral Capsule"/>
+            <Concept code="903884" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluvoxamine Maleate 100 MG Oral Tablet"/>
+            <Concept code="903887" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluvoxamine Maleate 25 MG Oral Tablet"/>
+            <Concept code="903891" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Fluvoxamine Maleate 50 MG Oral Tablet"/>
+            <Concept code="905168" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Protriptyline Hydrochloride 10 MG Oral Tablet"/>
+            <Concept code="905172" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Protriptyline Hydrochloride 5 MG Oral Tablet"/>
+            <Concept code="966787" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin 3 MG Oral Tablet"/>
+            <Concept code="966793" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Doxepin 6 MG Oral Tablet"/>
+            <Concept code="993503" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 100 MG Extended Release Oral Tablet"/>
+            <Concept code="993518" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet"/>
+            <Concept code="993536" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="12 HR Bupropion Hydrochloride 200 MG Extended Release Oral Tablet"/>
+            <Concept code="993541" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 150 MG Extended Release Oral Tablet"/>
+            <Concept code="993550" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 174 MG Extended Release Oral Tablet"/>
+            <Concept code="993557" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion Hydrochloride 300 MG Extended Release Oral Tablet"/>
+            <Concept code="993567" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 348 MG Extended Release Oral Tablet"/>
+            <Concept code="993681" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="24 HR Bupropion hydrobromide 522 MG Extended Release Oral Tablet"/>
+            <Concept code="993687" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Bupropion Hydrochloride 100 MG Oral Tablet"/>
+            <Concept code="993691" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" codeSystemVersion="2016-01" displayName="Bupropion Hydrochloride 75 MG Oral Tablet"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.196.12.1213</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.196.11.1102:Miscellaneous Antidepressants),(2.16.840.1.113883.3.464.1003.196.11.1137:Phenylpiperazine Antidepressants),(2.16.840.1.113883.3.464.1003.196.11.1141:Psychotherapeutic combinations),(2.16.840.1.113883.3.464.1003.196.11.1158:SSNRI Antidepressants),(2.16.840.1.113883.3.464.1003.196.11.1159:SSRI Antidepressants),(2.16.840.1.113883.3.464.1003.196.11.1162:Tetracyclic Antidepressants),(2.16.840.1.113883.3.464.1003.196.11.1194:Tricyclic Antidepressants),(2.16.840.1.113883.3.464.1003.196.11.1284:Monaminase Oxides)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.837" displayName="Ethnicity" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="2135-2" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Hispanic or Latino"/>
+            <Concept code="2186-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Not Hispanic or Latino"/>
+        </ConceptList>
+        <Source>Centers for Disease Control National Center for Health Statistics</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.837</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1048" displayName="Face-to-Face Interaction" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="12843005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Subsequent hospital visit by physician (procedure)"/>
+            <Concept code="18170008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Subsequent nursing facility visit (procedure)"/>
+            <Concept code="185349003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Encounter for &quot;check-up&quot; (procedure)"/>
+            <Concept code="185463005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Visit out of hours (procedure)"/>
+            <Concept code="185465003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Weekend visit (procedure)"/>
+            <Concept code="19681004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Nursing evaluation of patient and report (procedure)"/>
+            <Concept code="207195004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="History and physical examination with evaluation and management of nursing facility patient (procedure)"/>
+            <Concept code="270427003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient-initiated encounter (procedure)"/>
+            <Concept code="270430005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Provider-initiated encounter (procedure)"/>
+            <Concept code="308335008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Patient encounter procedure (procedure)"/>
+            <Concept code="390906007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Follow-up encounter (procedure)"/>
+            <Concept code="406547006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Urgent follow-up (procedure)"/>
+            <Concept code="439708006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Home visit (procedure)"/>
+            <Concept code="87790002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Follow-up inpatient consultation visit (procedure)"/>
+            <Concept code="90526000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Initial evaluation and management of healthy individual (procedure)"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1048</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1216:Face-to-Face Interaction)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1016" displayName="Home Healthcare Services" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="99341" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; and Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low severity. Typically, 20 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99342" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; and Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99343" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99344" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99345" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; and Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the patient is unstable or has developed a significant new problem requiring immediate physician attention. Typically, 75 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99347" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused interval history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 15 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99348" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused interval history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 25 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99349" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed interval history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99350" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Home visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive interval history; A comprehensive examination; Medical decision making of moderate to high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. The patient may be unstable or may have developed a significant new problem requiring immediate physician attention. Typically, 60 minutes are spent face-to-face with the patient and/or family."/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1016</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1080:Home Healthcare Services)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.105.12.1007" displayName="Major Depression" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="14183003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chronic major depressive disorder, single episode (disorder)"/>
+            <Concept code="15193003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="15639000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate major depression, single episode (disorder)"/>
+            <Concept code="18818009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate recurrent major depression (disorder)"/>
+            <Concept code="191601008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Single major depressive episode, mild (disorder)"/>
+            <Concept code="191602001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Single major depressive episode, moderate (disorder)"/>
+            <Concept code="191604000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Single major depressive episode, severe, with psychosis (disorder)"/>
+            <Concept code="191610000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive episodes, mild (disorder)"/>
+            <Concept code="191611001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive episodes, moderate (disorder)"/>
+            <Concept code="191613003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive episodes, severe, with psychosis (disorder)"/>
+            <Concept code="20250007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode, with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="231499006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Endogenous depression first episode (disorder)"/>
+            <Concept code="251000119105" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode (disorder)"/>
+            <Concept code="25922000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder, single episode with postpartum onset (disorder)"/>
+            <Concept code="2618002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Chronic recurrent major depressive disorder (disorder)"/>
+            <Concept code="268620009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Single major depressive episode (disorder)"/>
+            <Concept code="268621008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive episodes (disorder)"/>
+            <Concept code="274948002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Endogenous depression - recurrent (disorder)"/>
+            <Concept code="281000119103" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression (disorder)"/>
+            <Concept code="28475009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression with psychotic features (disorder)"/>
+            <Concept code="296.20" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, unspecified"/>
+            <Concept code="296.21" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, mild"/>
+            <Concept code="296.22" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, moderate"/>
+            <Concept code="296.23" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, severe, without mention of psychotic behavior"/>
+            <Concept code="296.24" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, severe, specified as with psychotic behavior"/>
+            <Concept code="296.25" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, single episode, in partial or unspecified remission"/>
+            <Concept code="296.30" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, unspecified"/>
+            <Concept code="296.31" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, mild"/>
+            <Concept code="296.32" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, moderate"/>
+            <Concept code="296.33" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, severe, without mention of psychotic behavior"/>
+            <Concept code="296.34" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, severe, specified as with psychotic behavior"/>
+            <Concept code="296.35" codeSystem="2.16.840.1.113883.6.103" codeSystemName="ICD9CM" codeSystemVersion="2013" displayName="Major depressive affective disorder, recurrent episode, in partial or unspecified remission"/>
+            <Concept code="300706003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Endogenous depression (disorder)"/>
+            <Concept code="30605009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depression in partial remission (disorder)"/>
+            <Concept code="319768000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive disorder with melancholic features (disorder)"/>
+            <Concept code="320751009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depression, melancholic type (disorder)"/>
+            <Concept code="321717001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Involutional depression (disorder)"/>
+            <Concept code="33078009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="33135002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depression in partial remission (disorder)"/>
+            <Concept code="33736005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="36474008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe recurrent major depression without psychotic features (disorder)"/>
+            <Concept code="36923009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depression, single episode (disorder)"/>
+            <Concept code="370143000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder (disorder)"/>
+            <Concept code="38694004" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive disorder with atypical features (disorder)"/>
+            <Concept code="39809009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive disorder with catatonic features (disorder)"/>
+            <Concept code="40379007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild recurrent major depression (disorder)"/>
+            <Concept code="42925002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder, single episode with atypical features (disorder)"/>
+            <Concept code="430852001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode, with psychotic features (disorder)"/>
+            <Concept code="450714000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression (disorder)"/>
+            <Concept code="60099002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression with psychotic features, mood-incongruent (disorder)"/>
+            <Concept code="63778009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder, single episode with melancholic features (disorder)"/>
+            <Concept code="66344007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depression (disorder)"/>
+            <Concept code="69392006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depressive disorder, single episode with catatonic features (disorder)"/>
+            <Concept code="70747007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Major depression single episode, in partial remission (disorder)"/>
+            <Concept code="71336009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Recurrent major depressive disorder with postpartum onset (disorder)"/>
+            <Concept code="73867007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression with psychotic features (disorder)"/>
+            <Concept code="75084000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression without psychotic features (disorder)"/>
+            <Concept code="76441001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode, without psychotic features (disorder)"/>
+            <Concept code="77911002" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Severe major depression, single episode, with psychotic features, mood-congruent (disorder)"/>
+            <Concept code="79298009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild major depression, single episode (disorder)"/>
+            <Concept code="832007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Moderate major depression (disorder)"/>
+            <Concept code="87512008" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMEDCT" codeSystemVersion="2015-09" displayName="Mild major depression (disorder)"/>
+            <Concept code="F32.0" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, single episode, mild"/>
+            <Concept code="F32.1" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, single episode, moderate"/>
+            <Concept code="F32.2" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, single episode, severe without psychotic features"/>
+            <Concept code="F32.3" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, single episode, severe with psychotic features"/>
+            <Concept code="F32.4" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, single episode, in partial remission"/>
+            <Concept code="F32.9" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, single episode, unspecified"/>
+            <Concept code="F33.0" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, recurrent, mild"/>
+            <Concept code="F33.1" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, recurrent, moderate"/>
+            <Concept code="F33.2" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, recurrent severe without psychotic features"/>
+            <Concept code="F33.3" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, recurrent, severe with psychotic symptoms"/>
+            <Concept code="F33.41" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, recurrent, in partial remission"/>
+            <Concept code="F33.9" codeSystem="2.16.840.1.113883.6.90" codeSystemName="ICD10CM" codeSystemVersion="2016" displayName="Major depressive disorder, recurrent, unspecified"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.105.12.1007</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.105.11.1017:Major Depression),(2.16.840.1.113883.3.464.1003.105.11.1018:Major Depression),(2.16.840.1.113883.3.464.1003.105.11.1019:Major Depression)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1001" displayName="Office Visit" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="99201" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 10 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99202" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: An expanded problem focused history; An expanded problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 20 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99203" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A detailed history; A detailed examination; Medical decision making of low complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate severity. Typically, 30 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99204" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 45 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99205" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of a new patient, which requires these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 60 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99212" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A problem focused history; A problem focused examination; Straightforward medical decision making. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are self limited or minor. Typically, 10 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99213" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: An expanded problem focused history; An expanded problem focused examination; Medical decision making of low complexity. Counseling and coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of low to moderate severity. Typically, 15 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99214" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A detailed history; A detailed examination; Medical decision making of moderate complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 25 minutes are spent face-to-face with the patient and/or family."/>
+            <Concept code="99215" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Office or other outpatient visit for the evaluation and management of an established patient, which requires at least 2 of these 3 key components: A comprehensive history; A comprehensive examination; Medical decision making of high complexity. Counseling and/or coordination of care with other physicians, other qualified health care professionals, or agencies are provided consistent with the nature of the problem(s) and the patient's and/or family's needs. Usually, the presenting problem(s) are of moderate to high severity. Typically, 40 minutes are spent face-to-face with the patient and/or family."/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1001</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1005:Office Visit)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113762.1.4.1" displayName="ONC Administrative Sex" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" codeSystemVersion="HL7V3.0_2014-08" displayName="Female"/>
+            <Concept code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" codeSystemVersion="HL7V3.0_2014-08" displayName="Male"/>
+        </ConceptList>
+        <Source>Office of the National Coordinator for Health Information Technology</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113762.1.4.1</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2015-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.3591" displayName="Payer" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="1" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MEDICARE"/>
+            <Concept code="11" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare (Managed Care)"/>
+            <Concept code="111" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare HMO"/>
+            <Concept code="112" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare PPO"/>
+            <Concept code="113" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare POS"/>
+            <Concept code="119" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Managed Care Other"/>
+            <Concept code="12" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare (Non-managed Care)"/>
+            <Concept code="121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare FFS"/>
+            <Concept code="122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Drug Benefit"/>
+            <Concept code="123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Medical Savings Account (MSA)"/>
+            <Concept code="129" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Non-managed Care Other"/>
+            <Concept code="19" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare Other"/>
+            <Concept code="2" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MEDICAID"/>
+            <Concept code="21" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid (Managed Care)"/>
+            <Concept code="211" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid HMO"/>
+            <Concept code="212" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid PPO"/>
+            <Concept code="213" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid PCCM (Primary Care Case Management)"/>
+            <Concept code="219" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Managed Care Other"/>
+            <Concept code="22" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid (Non-managed Care Plan)"/>
+            <Concept code="23" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid/SCHIP"/>
+            <Concept code="24" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Applicant"/>
+            <Concept code="25" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid - Out of State"/>
+            <Concept code="29" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicaid Other"/>
+            <Concept code="3" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="OTHER GOVERNMENT (Federal/State/Local) (excluding Department of Corrections)"/>
+            <Concept code="31" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Defense"/>
+            <Concept code="311" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE (CHAMPUS)"/>
+            <Concept code="3111" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Prime-HMO"/>
+            <Concept code="3112" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Extra-PPO"/>
+            <Concept code="3113" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Standard - Fee For Service"/>
+            <Concept code="3114" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE For Life--Medicare Supplement"/>
+            <Concept code="3115" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE Reserve Select"/>
+            <Concept code="3116" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Uniformed Services Family Health Plan (USFHP) -- HMO"/>
+            <Concept code="3119" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Defense - (other)"/>
+            <Concept code="312" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Military Treatment Facility"/>
+            <Concept code="3121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Enrolled Prime-HMO"/>
+            <Concept code="3122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Non-enrolled Space Available"/>
+            <Concept code="3123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="TRICARE For Life (TFL)"/>
+            <Concept code="313" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Dental --Stand Alone"/>
+            <Concept code="32" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Department of Veterans Affairs"/>
+            <Concept code="321" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Veteran care--Care provided to Veterans"/>
+            <Concept code="3211" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Direct Care--Care provided in VA facilities"/>
+            <Concept code="3212" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indirect Care--Care provided outside VA facilities"/>
+            <Concept code="32121" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Fee Basis"/>
+            <Concept code="32122" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Foreign Fee/Foreign Medical Program(FMP)"/>
+            <Concept code="32123" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Contract Nursing Home/Community Nursing Home"/>
+            <Concept code="32124" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State Veterans Home"/>
+            <Concept code="32125" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Sharing Agreements"/>
+            <Concept code="32126" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Federal Agency"/>
+            <Concept code="322" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Non-veteran care"/>
+            <Concept code="3221" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Civilian Health and Medical Program for the VA (CHAMPVA)"/>
+            <Concept code="3222" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Spina Bifida Health Care Program (SB)"/>
+            <Concept code="3223" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Children of Women Vietnam Veterans (CWVV)"/>
+            <Concept code="3229" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other non-veteran care"/>
+            <Concept code="33" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service or Tribe"/>
+            <Concept code="331" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Regular"/>
+            <Concept code="332" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Contract"/>
+            <Concept code="333" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Health Service - Managed Care"/>
+            <Concept code="334" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Indian Tribe - Sponsored Coverage"/>
+            <Concept code="34" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HRSA Program"/>
+            <Concept code="341" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Title V (MCH Block Grant)"/>
+            <Concept code="342" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Migrant Health Program"/>
+            <Concept code="343" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Ryan White Act"/>
+            <Concept code="349" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other"/>
+            <Concept code="35" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Black Lung"/>
+            <Concept code="36" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State Government"/>
+            <Concept code="361" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State SCHIP program (codes for individual states)"/>
+            <Concept code="362" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Specific state programs (list/ local code)"/>
+            <Concept code="369" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="State, not otherwise specified (other state)"/>
+            <Concept code="37" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local Government"/>
+            <Concept code="371" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local - Managed care"/>
+            <Concept code="3711" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HMO"/>
+            <Concept code="3712" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PPO"/>
+            <Concept code="3713" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="POS"/>
+            <Concept code="372" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="FFS/Indemnity"/>
+            <Concept code="379" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Local, not otherwise specified (other local, county)"/>
+            <Concept code="38" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Government (Federal, State, Local not specified)"/>
+            <Concept code="381" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified managed care"/>
+            <Concept code="3811" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - HMO"/>
+            <Concept code="3812" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - PPO"/>
+            <Concept code="3813" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - POS"/>
+            <Concept code="3819" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - not specified managed care"/>
+            <Concept code="382" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - FFS"/>
+            <Concept code="389" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Federal, State, Local not specified - Other"/>
+            <Concept code="39" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Federal"/>
+            <Concept code="4" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="DEPARTMENTS OF CORRECTIONS"/>
+            <Concept code="41" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Federal"/>
+            <Concept code="42" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections State"/>
+            <Concept code="43" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Local"/>
+            <Concept code="44" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Corrections Unknown Level"/>
+            <Concept code="5" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PRIVATE HEALTH INSURANCE"/>
+            <Concept code="51" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care (Private)"/>
+            <Concept code="511" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - HMO"/>
+            <Concept code="512" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - PPO"/>
+            <Concept code="513" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Managed Care - POS"/>
+            <Concept code="514" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Exclusive Provider Organization"/>
+            <Concept code="515" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Gatekeeper PPO (GPPO)"/>
+            <Concept code="519" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care, Other (non HMO)"/>
+            <Concept code="52" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Private Health Insurance - Indemnity"/>
+            <Concept code="521" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Commercial Indemnity"/>
+            <Concept code="522" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Self-insured (ERISA) Administrative Services Only (ASO) plan"/>
+            <Concept code="523" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Medicare supplemental policy (as second payer)"/>
+            <Concept code="529" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Private health insurance-other commercial Indemnity"/>
+            <Concept code="53" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Managed Care (private) or private health insurance (indemnity), not otherwise specified"/>
+            <Concept code="54" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Organized Delivery System"/>
+            <Concept code="55" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Small Employer Purchasing Group"/>
+            <Concept code="59" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Private Insurance"/>
+            <Concept code="6" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BLUE CROSS/BLUE SHIELD"/>
+            <Concept code="61" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care"/>
+            <Concept code="611" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - HMO"/>
+            <Concept code="612" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - PPO"/>
+            <Concept code="613" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - POS"/>
+            <Concept code="619" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Managed Care - Other"/>
+            <Concept code="62" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC Indemnity"/>
+            <Concept code="63" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Out of State"/>
+            <Concept code="64" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Unspecified"/>
+            <Concept code="69" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="BC (Indemnity or Managed Care) - Other"/>
+            <Concept code="7" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MANAGED CARE, UNSPECIFIED (to be used only if one can't distinguish public from private)"/>
+            <Concept code="71" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="HMO"/>
+            <Concept code="72" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="PPO"/>
+            <Concept code="73" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="POS"/>
+            <Concept code="79" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other Managed Care, Unknown if public or private"/>
+            <Concept code="8" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="NO PAYMENT from an Organization/Agency/Program/Private Payer Listed"/>
+            <Concept code="81" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Self-pay"/>
+            <Concept code="82" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Charge"/>
+            <Concept code="821" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Charity"/>
+            <Concept code="822" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Professional Courtesy"/>
+            <Concept code="823" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Research/Clinical Trial"/>
+            <Concept code="83" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Refusal to Pay/Bad Debt"/>
+            <Concept code="84" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Hill Burton Free Care"/>
+            <Concept code="85" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Research/Donor"/>
+            <Concept code="89" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Payment, Other"/>
+            <Concept code="9" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="MISCELLANEOUS/OTHER"/>
+            <Concept code="91" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Foreign National"/>
+            <Concept code="92" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other (Non-government)"/>
+            <Concept code="93" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Disability Insurance"/>
+            <Concept code="94" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Long-term Care Insurance"/>
+            <Concept code="95" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Compensation"/>
+            <Concept code="951" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp HMO"/>
+            <Concept code="953" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp Fee-for-Service"/>
+            <Concept code="954" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp Other Managed Care"/>
+            <Concept code="959" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Worker's Comp, Other unspecified"/>
+            <Concept code="96" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Auto Insurance (no fault)"/>
+            <Concept code="98" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Other specified (includes Hospice - Unspecified plan)"/>
+            <Concept code="99" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="No Typology Code available for payment source"/>
+            <Concept code="9999" codeSystem="2.16.840.1.113883.3.221.5" codeSystemName="SOP" codeSystemVersion="5.0" displayName="Unavailable / Unknown"/>
+        </ConceptList>
+        <Source>Public Health Data Standards Consortium</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.3591</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1025" displayName="Preventive Care Services - Established Office Visit, 18 and Up" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="99395" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 18-39 years"/>
+            <Concept code="99396" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 40-64 years"/>
+            <Concept code="99397" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Periodic comprehensive preventive medicine reevaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, established patient; 65 years and older"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1025</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1125:Preventive Care Services - Established Office Visit, 18 and Up)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.464.1003.101.12.1023" displayName="Preventive Care Services-Initial Office Visit, 18 and Up" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="99385" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 18-39 years"/>
+            <Concept code="99386" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 40-64 years"/>
+            <Concept code="99387" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Initial comprehensive preventive medicine evaluation and management of an individual including an age and gender appropriate history, examination, counseling/anticipatory guidance/risk factor reduction interventions, and the ordering of laboratory/diagnostic procedures, new patient; 65 years and older"/>
+        </ConceptList>
+        <Source>National Committee for Quality Assurance</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.464.1003.101.12.1023</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.464.1003.101.11.1115:Preventive Care Services-Initial Office Visit, 18 and Up)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1492" displayName="Psych Visit - Diagnostic Evaluation" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="90791" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychiatric diagnostic evaluation"/>
+            <Concept code="90792" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychiatric diagnostic evaluation with medical services"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1492</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1923:Psych Visit - Diagnostic Evaluation)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.113883.3.526.3.1496" displayName="Psych Visit - Psychotherapy" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="90832" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 30 minutes with patient and/or family member"/>
+            <Concept code="90834" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 45 minutes with patient and/or family member"/>
+            <Concept code="90837" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT" codeSystemVersion="2016" displayName="Psychotherapy, 60 minutes with patient and/or family member"/>
+        </ConceptList>
+        <Source>American Medical Association-convened Physician Consortium for Performance Improvement(R)</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.113883.3.526.3.1496</SourceURI>
+        <Purpose></Purpose>
+        <Definition>(2.16.840.1.113883.3.526.2.1927:Psych Visit - Psychotherapy)</Definition>
+        <Type>Grouping</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2016-03-31Z</RevisionDate>
+    </DescribedValueSet>
+    <DescribedValueSet ID="2.16.840.1.114222.4.11.836" displayName="Race" version="MU2 Update 2016-04-01">
+        <ConceptList>
+            <Concept code="1002-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="American Indian or Alaska Native"/>
+            <Concept code="2028-9" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Asian"/>
+            <Concept code="2054-5" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Black or African American"/>
+            <Concept code="2076-8" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Native Hawaiian or Other Pacific Islander"/>
+            <Concept code="2106-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="White"/>
+            <Concept code="2131-1" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDCREC" codeSystemVersion="1.0" displayName="Other Race"/>
+        </ConceptList>
+        <Source>Centers for Disease Control National Center for Health Statistics</Source>
+        <SourceURI>https://vsac.nlm.nih.gov/vsac/svs/RetrieveMultipleValueSets?id=2.16.840.1.114222.4.11.836</SourceURI>
+        <Purpose></Purpose>
+        <Definition>Not Specified</Definition>
+        <Type>Extensional</Type>
+        <Binding>Dynamic</Binding>
+        <Status>Active</Status>
+        <RevisionDate>2012-10-25Z</RevisionDate>
+    </DescribedValueSet>
+</RetrieveMultipleValueSetsResponse>

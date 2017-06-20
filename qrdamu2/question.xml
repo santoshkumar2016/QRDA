@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>  
+
+<entryRelationshipSex><![CDATA[
+	<entryRelationship typeCode="COMP">
+		<!-- Sex Supplemental Data Element  -->
+		<observation classCode="OBS" moodCode="EVN">
+			<!-- Sex Supplemental Data Element template ID -->
+			<templateId root="2.16.840.1.113883.10.20.27.3.6"
+				extension="2016-02-01"/>
+			<!-- SHALL be single value binding to: -->
+			<code code="184100006" displayName="patient sex"
+				codeSystem="2.16.840.1.113883.6.96"
+				codeSystemName="SNOMED-CT"/>
+			<statusCode code="completed"/>
+			<!-- SHALL be drawn from  Value Set: ONC Administrative Sex 2.16.840.1.113762.1.4.1 DYNAMIC-->
+			<!-- Female -->
+			<value xsi:type="CD" code="{%%sexCode%%}"
+				codeSystem="2.16.840.1.113883.18.2"
+				codeSystemName="AdministrativeSex"/>
+			<entryRelationship typeCode="SUBJ" inversionInd="true">
+				<observation classCode="OBS" moodCode="EVN">
+				<!-- SHALL 1..1 Aggregate Count template -->
+				<templateId root="2.16.840.1.113883.10.20.27.3.3"/>
+				<code code="MSRAGG" displayName="rate aggregation"
+				codeSystem="2.16.840.1.113883.5.4"
+				codeSystemName="ActCode"/>
+				<!--  SHALL value xsi:type="INT"-->
+				<value xsi:type="INT" value="{%%sexCount%%}"/>
+				<methodCode code="COUNT" displayName="Count"
+				codeSystem="2.16.840.1.113883.5.84"
+				codeSystemName="ObservationMethod"/>
+				</observation>
+			</entryRelationship>
+		</observation>
+	</entryRelationship>
+				]]>
+</entryRelationshipSex>
+
+<entryRelationshipEthnicity><![CDATA[
+	<entryRelationship typeCode="COMP">
+		<!-- Ethnicity Supplemental Data Element (2.16.840.1.113883.10.20.27.3.7) -->
+		<observation classCode="OBS" moodCode="EVN">
+			<!-- Ethnicity Supplemental Data Element template ID -->
+			<templateId root="2.16.840.1.113883.10.20.27.3.7"/>
+			<!-- SHALL single value binding -->
+			<code code="364699009" displayName="Ethnic Group"
+				codeSystem="2.16.840.1.113883.6.96"
+				codeSystemName="SNOMED CT"/>
+			<statusCode code="completed"/>
+			<!-- SHALL be bound to CDC Ethnicity group Value Set OID 2.16.840.1.114222.4.11.837 - dynamic -->
+			<!-- Not hispanic -->
+			<value xsi:type="CD" code="{%%ethnicityCode%%}"
+				displayName="{%%ethnicityDisplayName%%}"
+				codeSystem="2.16.840.1.113883.6.238"
+				codeSystemName="Race &amp; Ethnicity - CDC"/>
+			<!-- SHALL 1..1 Aggregate Count template -->
+			<entryRelationship typeCode="SUBJ" inversionInd="true">
+				<observation classCode="OBS" moodCode="EVN">
+				<!-- Aggregate Count template -->
+				<templateId root="2.16.840.1.113883.10.20.27.3.3"/>
+				<code code="MSRAGG" displayName="rate aggregation"
+				codeSystem="2.16.840.1.113883.5.4"
+				codeSystemName="ActCode"/>
+				<!--  SHALL value xsi:type="INT"-->
+				<value xsi:type="INT" value="{%%ethnicityCount%%}"/>
+				<methodCode code="COUNT" displayName="Count"
+				codeSystem="2.16.840.1.113883.5.84"
+				codeSystemName="ObservationMethod"/>
+				</observation>
+			</entryRelationship>
+		</observation>
+	</entryRelationship>
+				]]>
+</entryRelationshipEthnicity>
+
+<entryRelationshipPayer><![CDATA[
+	<entryRelationship typeCode="COMP">
+		<!-- Payer Supplemental Data Element -->
+		<observation classCode="OBS" moodCode="EVN">
+			<!-- Conforms to Patient Characteristic Payer -->
+			<templateId root="2.16.840.1.113883.10.20.24.3.55"/>
+			<!-- Payer Supplemental Data Element template ID -->
+			<templateId root="2.16.840.1.113883.10.20.27.3.9"
+				extension="2016-02-01"/>
+			<!-- implied template requires ID -->
+			<id nullFlavor="NA"/>
+			<!-- SHALL be single value binding to: -->
+			<code code="48768-6" displayName="Payment source"
+				codeSystem="2.16.840.1.113883.6.1"
+				codeSystemName="SNOMED-CT"/>
+			<statusCode code="completed"/>
+			<effectiveTime>
+				<low value="20140101"/>
+				<high value="20161231"/>
+			</effectiveTime>
+			<!-- SHALL be drawn from  Value Set: PHDSC Source of Payment Typology 2.16.840.1.114222.4.11.3591 DYNAMIC-->
+			<value xsi:type="CD" code="{%%payerCode%%}"
+				codeSystem="2.16.840.1.113883.3.221.5"
+				codeSystemName="Source of Payment Typology"
+				displayName="{%%payerDisplayName%%}"/>
+			<entryRelationship typeCode="SUBJ" inversionInd="true">
+				<observation classCode="OBS" moodCode="EVN">
+				<!-- SHALL 1..1 Aggregate Count template -->
+				<templateId root="2.16.840.1.113883.10.20.27.3.3"/>
+				<code code="MSRAGG" displayName="rate aggregation"
+				codeSystem="2.16.840.1.113883.5.4"
+				codeSystemName="ActCode"/>
+				<!--  SHALL value xsi:type="INT"-->
+				<value xsi:type="INT" value="{%%payerCount%%}"/>
+				<methodCode code="COUNT" displayName="Count"
+				codeSystem="2.16.840.1.113883.5.84"
+				codeSystemName="ObservationMethod"/>
+				</observation>
+			</entryRelationship>
+		</observation>
+	</entryRelationship>
+				]]>
+</entryRelationshipPayer>
+
+<entryRelationshipRace><![CDATA[
+	<entryRelationship typeCode="COMP">
+		<!-- Race Supplemental Data Element (2.16.840.1.113883.10.20.27.3.8) -->
+		<observation classCode="OBS" moodCode="EVN">
+			<!-- Race Supplemental Data Element template ID -->
+			<templateId root="2.16.840.1.113883.10.20.27.3.8"/>
+			<code code="103579009" displayName="Race"
+				codeSystem="2.16.840.1.113883.6.96"
+				codeSystemName="SNOMED-CT"/>
+			<statusCode code="completed"/>
+			<!-- SHALL be bound to CDC Race Category Value Set OID 2.16.840.1.114222.4.11.836 - dynamic -->
+			<value xsi:type="CD" code="{%%raceCode%%}"
+				displayName="{%%raceDisplayName%%}"
+				codeSystem="2.16.840.1.113883.6.238"
+				codeSystemName="Race &amp; Ethnicity - CDC"/>
+			<entryRelationship typeCode="SUBJ" inversionInd="true">
+				<observation classCode="OBS" moodCode="EVN">
+				<!-- SHALL 1..1 Aggregate Count template -->
+				<templateId root="2.16.840.1.113883.10.20.27.3.3"/>
+				<code code="MSRAGG" displayName="rate aggregation"
+				codeSystem="2.16.840.1.113883.5.4"
+				codeSystemName="ActCode"/>
+				<!--  SHALL value xsi:type="INT"-->
+				<value xsi:type="INT" value="{%%raceCount%%}"/>
+				<methodCode code="COUNT" displayName="Count"
+				codeSystem="2.16.840.1.113883.5.84"
+				codeSystemName="ObservationMethod"/>
+				</observation>
+			</entryRelationship>
+		</observation>
+	</entryRelationship>
+				]]>
+</entryRelationshipRace>

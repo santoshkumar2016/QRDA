@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<eMeasures>
+	<Measure id="68v4" >
+		<Queries >
+                    
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                    SELECT IF(cc.CID > 0 ,'68v4','') AS MeasureID
+	                , cc.CID AS ClientId
+	                , cc.FNAME AS Patient_Name_First
+	                , cc.LNAME AS Patient_Last_Name
+	                , cc.dob AS Patient_BirthDate
+	                , TIMESTAMPDIFF(YEAR, cc.dob, '{%%START_DATE%%}') AS Patient_Age
+	                , cc.Address1_1 AS Patient_Address_Line_1
+	                , cc.CITY1 AS Patient_Address_City
+	                , cc.State1 AS Patient_Address_State
+	                , cc.Country1 AS Patient_Address_Country
+	                , cc.Zip1 AS Patient_Address_PostalCode
+	                ,'H' AS Patient_Address_Type
+	                , cc.HPHONE AS Patient_Telephone
+	                , 'H' AS Patient_Telephone_Type
+	                , cc.SEX AS Patient_Gender_Code
+	                , IF(cc.SEX = 'M','Male','Female') AS Patient_Gender_Name
+	                , mcr.code AS Patient_Race_Code
+	                , mcr.name AS Patient_Race_Name
+	                , ce.code AS Patient_Ethnicity_Code
+	                , ce.name AS Patient_Ethnicity_Name
+	                , p.payerId AS Patient_Payer
+	                ,'{%%START_DATE%%}' AS ProviderPeriodofCare_Begin
+					, '{%%END_DATE%%}' AS ProviderPeriodofCare_End
+	                , '349' AS PayerName
+	                , FROM_UNIXTIME(c.starttime) AS StartDate
+	                , FROM_UNIXTIME(c.endtime) AS EndDate
+	                , lg.description2 AS DATA_ELEMENT
+	                , lg.ACTUAL_CODE AS CODES
+					, la.DESCRIPTION AS CodeSystem
+					, lg.SNOMED_CODE AS DataElement
+				FROM calendar c, ledger l, contacts cc
+                LEFT JOIN contact_race cr ON (cr.CID = cc.CID)
+                LEFT JOIN codes_race mcr ON (mcr.raceId = cr.raceId)
+                LEFT JOIN codes_ethnicity ce ON (cc.ethnicityId = ce.ethnicityId),ledger_codes lg, encounters e
+                LEFT JOIN payer_instance payi ON (payi.CID = e.CID)
+                LEFT JOIN payers p ON (payi.payerId = p.payerId), ledger_accounts la
+				WHERE c.ENTRYID = l.batch_entryid
+                AND l.CID = cc.CID
+                AND l.encounterId = e.encounterId
+                AND l.account = lg.account
+                AND lg.code = l.billcode
+                AND la.ACCOUNT = l.account
+                AND lg.ACTUAL_CODE IN ('{%%PROCEDURE_CODES_BIRTH_DATE%%}')
+                AND FROM_UNIXTIME(c.starttime) >=  '{%%START_DATE%%}'
+                AND c.OWNER = '{%%PROVIDER_ID%%}' AND c.check_in_time != '' AND c.check_out_time != ''
+                AND cc.dob !=''
+				HAVING Patient_Age >= 18 
+                
+                
+                                ]]>
+			</Query>
+			<Query type ="SNOMEDCT" spCheck="false" containsParam="false">
+				<![CDATA[
+                    SELECT IF(cc.CID > 0 ,'68v4','') AS MeasureID
+                        , cc.CID AS ClientId
+                        , cc.FNAME AS Patient_Name_First
+                        , cc.LNAME AS Patient_Last_Name
+                        , cc.dob AS Patient_BirthDate
+                        , TIMESTAMPDIFF(YEAR, cc.dob, '{%%START_DATE%%}') AS Patient_Age
+                        , cc.Address1_1 AS Patient_Address_Line_1
+                        , cc.CITY1 AS Patient_Address_City
+                        , cc.State1 AS Patient_Address_State
+                        , cc.Country1 AS Patient_Address_Country
+                        , cc.Zip1 AS Patient_Address_PostalCode
+                        ,'H' AS Patient_Address_Type
+                        , cc.HPHONE AS Patient_Telephone
+                        , 'H' AS Patient_Telephone_Type
+                        , cc.SEX AS Patient_Gender_Code
+                        , IF(cc.SEX = 'M','Male','Female') AS Patient_Gender_Name
+                        , mcr.code AS Patient_Race_Code
+                        , mcr.name AS Patient_Race_Name
+                        , ce.code AS Patient_Ethnicity_Code
+                        , ce.name AS Patient_Ethnicity_Name
+                        , p.payerId AS Patient_Payer
+                        ,'{%%START_DATE%%}' AS ProviderPeriodofCare_Begin
+			, '{%%END_DATE%%}' AS ProviderPeriodofCare_End
+	                , '349' AS PayerName
+	                , FROM_UNIXTIME(c.starttime) AS StartDate
+	                , FROM_UNIXTIME(c.endtime) AS EndDate
+	                , lg.description2 AS DATA_ELEMENT
+	                , lg.ACTUAL_CODE AS CODES
+                        , la.DESCRIPTION AS CodeSystem
+                        , lg.SNOMED_CODE AS DataElement
+				FROM calendar c, ledger l, contacts cc
+                LEFT JOIN contact_race cr ON (cr.CID = cc.CID)
+                LEFT JOIN codes_race mcr ON (mcr.raceId = cr.raceId)
+                LEFT JOIN codes_ethnicity ce ON (cc.ethnicityId = ce.ethnicityId),ledger_codes lg, encounters e
+                LEFT JOIN payer_instance payi ON (payi.CID = e.CID)
+                LEFT JOIN payers p ON (payi.payerId = p.payerId), ledger_accounts la
+				WHERE c.ENTRYID = l.batch_entryid
+                AND l.CID = cc.CID
+                AND cc.CID IN (SELECT DISTINCT(ClientId) AS CID FROM 68_Temp)
+                AND l.encounterId = e.encounterId
+                AND l.account = lg.account
+                AND lg.code = l.billcode
+                AND la.ACCOUNT = l.account
+                AND lg.ACTUAL_CODE IN ('{%%PROCEDURE_CODES_SNMD%%}')
+                AND FROM_UNIXTIME(c.starttime) >=  '{%%START_DATE%%}'
+	            AND c.OWNER = '{%%PROVIDER_ID%%}' AND c.check_in_time != '' AND c.check_out_time != ''
+	            AND cc.dob !=''
+				HAVING Patient_Age >= 18
+                                ]]>
+			</Query>
+			<Query type ="LOINC" spCheck="false" containsParam="false">
+				<![CDATA[
+                                ]]>
+			</Query>
+		</Queries>
+	</Measure>
+        <Measure id="50v3" >
+		<Queries >
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                    SELECT IF(cc.CID > 0 ,'50v3','') AS MeasureID
+		                , cc.CID AS ClientId
+		                , cc.FNAME AS Patient_Name_First
+		                , cc.LNAME AS Patient_Last_Name
+		                , cc.dob AS Patient_BirthDate
+		                , TIMESTAMPDIFF(YEAR, cc.dob, '{%%START_DATE%%}') AS Patient_Age
+		                , cc.Address1_1 AS Patient_Address_Line_1
+		                , cc.CITY1 AS Patient_Address_City
+		                , cc.State1 AS Patient_Address_State
+		                , cc.Country1 AS Patient_Address_Country
+		                , cc.Zip1 AS Patient_Address_PostalCode
+		                ,'H' AS Patient_Address_Type
+		                , cc.HPHONE AS Patient_Telephone
+		                , 'H' AS Patient_Telephone_Type
+		                , cc.SEX AS Patient_Gender_Code
+		                , IF(cc.SEX = 'M','Male','Female') AS Patient_Gender_Name
+		                , mcr.code AS Patient_Race_Code
+		                , mcr.name AS Patient_Race_Name
+		                , ce.code AS Patient_Ethnicity_Code
+		                , ce.name AS Patient_Ethnicity_Name
+		                , p.payerId AS Patient_Payer
+		                ,'{%%START_DATE%%}' AS ProviderPeriodofCare_Begin
+						, '{%%END_DATE%%}' AS ProviderPeriodofCare_End
+		                , p.payerName AS PayerName
+		                , FROM_UNIXTIME(c.starttime) AS StartDate
+		                , FROM_UNIXTIME(c.endtime) AS EndDate
+		                , lg.description2 AS DATA_ELEMENT
+		                , lg.ACTUAL_CODE AS CODES
+						, la.DESCRIPTION AS CodeSystem
+						, lg.SNOMED_CODE AS DataElement
+				FROM calendar c, ledger l, contacts cc
+                LEFT JOIN contact_race cr ON (cr.CID = cc.CID)
+                LEFT JOIN codes_race mcr ON (mcr.raceId = cr.raceId)
+                LEFT JOIN codes_ethnicity ce ON (cc.ethnicityId = ce.ethnicityId),ledger_codes lg, encounters e
+                LEFT JOIN payer_instance payi ON (payi.CID = e.CID)
+                LEFT JOIN payers p ON (payi.payerId = p.payerId), ledger_accounts la
+				WHERE c.ENTRYID = l.batch_entryid
+                AND l.CID = cc.CID
+                AND cc.CID IN (
+                    SELECT cc.CID AS ClientId 
+                                FROM calendar c, ledger l, contacts cc
+                                LEFT JOIN contact_race cr ON (cr.CID = cc.CID)
+                                LEFT JOIN codes_race mcr ON (mcr.raceId = cr.raceId)
+                                LEFT JOIN codes_ethnicity ce ON (cc.ethnicityId = ce.ethnicityId),ledger_codes lg, encounters e
+                                LEFT JOIN payer_instance payi ON (payi.CID = e.CID)
+                                LEFT JOIN payers p ON (payi.payerId = p.payerId), ledger_accounts la
+                                    WHERE c.ENTRYID = l.batch_entryid
+                                        AND l.CID = cc.CID            
+                                        AND l.encounterId = e.encounterId
+                                        AND l.account = lg.account
+                                        AND lg.code = l.billcode
+                                        AND la.ACCOUNT = l.account
+                                        AND lg.ACTUAL_CODE IN ('{%%PROCEDURE_CODES_PREVENTIVE%%}')
+                                        AND FROM_UNIXTIME(c.starttime) >= '{%%START_DATE%%}'
+                                        AND c.OWNER = '{%%PROVIDER_ID%%}' 
+                                        AND c.check_in_time != '' 
+                                        AND c.check_out_time != ''
+                )
+                AND l.encounterId = e.encounterId
+                AND l.account = lg.account
+                AND lg.code = l.billcode
+                AND la.ACCOUNT = l.account
+		AND lg.ACTUAL_CODE IN ('{%%PROCEDURE_CODES_REFERRAL%%}')
+                AND FROM_UNIXTIME(c.starttime) >= '{%%START_DATE%%}'
+                AND c.OWNER = '{%%PROVIDER_ID%%}' 
+                AND c.check_in_time != '' 
+                AND c.check_out_time != ''
+                                ]]>
+			</Query>
+			<Query type ="SNOMEDCT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                SELECT IF(cc.CID > 0 ,'50v3','') AS MeasureID
+                , cc.CID AS ClientId
+                , cc.FNAME AS Patient_Name_First
+                , cc.LNAME AS Patient_Last_Name
+                , cc.dob AS Patient_BirthDate
+                , TIMESTAMPDIFF(YEAR, cc.dob, '{%%START_DATE%%}') AS Patient_Age
+                , cc.Address1_1 AS Patient_Address_Line_1
+                , cc.CITY1 AS Patient_Address_City
+                , cc.State1 AS Patient_Address_State
+                , cc.Country1 AS Patient_Address_Country
+                , cc.Zip1 AS Patient_Address_PostalCode
+                ,'H' AS Patient_Address_Type
+                , cc.HPHONE AS Patient_Telephone
+                , 'H' AS Patient_Telephone_Type
+                , cc.SEX AS Patient_Gender_Code
+                , IF(cc.SEX = 'M','Male','Female') AS Patient_Gender_Name
+                , mcr.code AS Patient_Race_Code
+                , mcr.name AS Patient_Race_Name
+                , ce.code AS Patient_Ethnicity_Code
+                , ce.name AS Patient_Ethnicity_Name
+                , p.payerId AS Patient_Payer
+                ,'{%%START_DATE%%}' AS ProviderPeriodofCare_Begin
+		, '{%%END_DATE%%}' AS ProviderPeriodofCare_End
+                , p.payerName AS PayerName
+                , FROM_UNIXTIME(c.starttime) AS StartDate
+                , FROM_UNIXTIME(c.endtime) AS EndDate
+                , lg.description2 AS DATA_ELEMENT
+                , lg.ACTUAL_CODE AS CODES
+		, la.DESCRIPTION AS CodeSystem
+		, lg.SNOMED_CODE AS DataElement
+			FROM calendar c, ledger l, contacts cc
+            LEFT JOIN contact_race cr ON (cr.CID = cc.CID)
+            LEFT JOIN codes_race mcr ON (mcr.raceId = cr.raceId)
+            LEFT JOIN codes_ethnicity ce ON (cc.ethnicityId = ce.ethnicityId),ledger_codes lg, encounters e
+            LEFT JOIN payer_instance payi ON (payi.CID = e.CID)
+            LEFT JOIN payers p ON (payi.payerId = p.payerId), ledger_accounts la
+			WHERE c.ENTRYID = l.batch_entryid
+            AND l.CID = cc.CID
+            AND cc.CID IN (
+                 SELECT cc.CID AS ClientId FROM calendar c, ledger l, contacts cc
+                LEFT JOIN contact_race cr ON (cr.CID = cc.CID)
+                LEFT JOIN codes_race mcr ON (mcr.raceId = cr.raceId)
+                LEFT JOIN codes_ethnicity ce ON (cc.ethnicityId = ce.ethnicityId),ledger_codes lg, encounters e
+                LEFT JOIN payer_instance payi ON (payi.CID = e.CID)
+                LEFT JOIN payers p ON (payi.payerId = p.payerId), ledger_accounts la
+				WHERE c.ENTRYID = l.batch_entryid
+                AND l.CID = cc.CID
+                AND l.encounterId = e.encounterId
+                AND l.account = lg.account
+                AND lg.code = l.billcode
+                AND la.ACCOUNT = l.account
+		AND lg.ACTUAL_CODE IN ('{%%PROCEDURE_CODES_REFERRAL%%}')
+                AND FROM_UNIXTIME(c.starttime) >= '{%%START_DATE%%}'
+                AND c.OWNER = '{%%PROVIDER_ID%%}' 
+                AND c.check_in_time != '' 
+                AND c.check_out_time != ''    
+            )
+            AND l.encounterId = e.encounterId
+            AND l.account = lg.account
+            AND lg.code = l.billcode
+            AND la.ACCOUNT = l.account
+			AND lg.ACTUAL_CODE IN ('{%%PROCEDURE_CODES_PREVENTIVE%%}')
+            AND FROM_UNIXTIME(c.starttime) >= '{%%START_DATE%%}'
+            AND c.OWNER = '{%%PROVIDER_ID%%}' AND c.check_in_time != '' AND c.check_out_time != ''
+                                ]]>
+			</Query>
+			<Query type ="LOINC" spCheck="false" containsParam="false">
+				<![CDATA[
+                                        SELECT IF(cc.CID > 0 ,'50v3','') AS MeasureID
+	                , cc.CID AS ClientId
+	                , cc.FNAME AS Patient_Name_First
+	                , cc.LNAME AS Patient_Last_Name
+	                , cc.dob AS Patient_BirthDate
+	                , TIMESTAMPDIFF(YEAR, cc.dob, '{%%START_DATE%%}') AS Patient_Age
+	                , cc.Address1_1 AS Patient_Address_Line_1
+	                , cc.CITY1 AS Patient_Address_City
+	                , cc.State1 AS Patient_Address_State
+	                , cc.Country1 AS Patient_Address_Country
+	                , cc.Zip1 AS Patient_Address_PostalCode
+	                ,'H' AS Patient_Address_Type
+	                , cc.HPHONE AS Patient_Telephone
+	                , 'H' AS Patient_Telephone_Type
+	                , cc.SEX AS Patient_Gender_Code
+	                , IF(cc.SEX = 'M','Male','Female') AS Patient_Gender_Name
+	                , mcr.code AS Patient_Race_Code
+	                , mcr.name AS Patient_Race_Name
+	                , ce.code AS Patient_Ethnicity_Code
+	                , ce.name AS Patient_Ethnicity_Name
+	                , p.payerId AS Patient_Payer
+	                ,'{%%START_DATE%%}' AS ProviderPeriodofCare_Begin
+			, '{%%END_DATE%%}' AS ProviderPeriodofCare_End
+	                , p.payerName AS PayerName
+	                , FROM_UNIXTIME(c.starttime) AS StartDate
+	                , FROM_UNIXTIME(c.endtime) AS EndDate
+	                , lg.description2 AS DATA_ELEMENT
+	                , lg.ACTUAL_CODE AS CODES
+			, la.DESCRIPTION AS CodeSystem
+			, lg.SNOMED_CODE AS DataElement
+				FROM calendar c, ledger l, contacts cc
+                                    LEFT JOIN contact_race cr ON (cr.CID = cc.CID)
+                                    LEFT JOIN codes_race mcr ON (mcr.raceId = cr.raceId)
+                                    LEFT JOIN codes_ethnicity ce ON (cc.ethnicityId = ce.ethnicityId),ledger_codes lg, encounters e
+                                    LEFT JOIN payer_instance payi ON (payi.CID = e.CID)
+                                    LEFT JOIN payers p ON (payi.payerId = p.payerId), ledger_accounts la
+				WHERE c.ENTRYID = l.batch_entryid
+                                    AND l.CID = cc.CID
+                                    AND cc.CID IN (
+                                                    
+                                             SELECT cc.CID AS ClientId FROM calendar c, ledger l, contacts cc
+                                                    LEFT JOIN contact_race cr ON (cr.CID = cc.CID)
+                                                    LEFT JOIN codes_race mcr ON (mcr.raceId = cr.raceId)
+                                                    LEFT JOIN codes_ethnicity ce ON (cc.ethnicityId = ce.ethnicityId),ledger_codes lg, encounters e
+                                                    LEFT JOIN payer_instance payi ON (payi.CID = e.CID)
+                                                    LEFT JOIN payers p ON (payi.payerId = p.payerId), ledger_accounts la
+                                                                    WHERE c.ENTRYID = l.batch_entryid
+                                                                        AND l.CID = cc.CID
+                                                                        AND l.encounterId = e.encounterId
+                                                                        AND l.account = lg.account
+                                                                        AND lg.code = l.billcode
+                                                                        AND la.ACCOUNT = l.account
+                                                                        AND lg.ACTUAL_CODE IN ('{%%PROCEDURE_CODES_REFERRAL%%}')
+                                                                        AND FROM_UNIXTIME(c.starttime) >= '{%%START_DATE%%}'
+                                                                        AND c.OWNER = '{%%PROVIDER_ID%%}' 
+                                                                        AND c.check_in_time != '' 
+                                                                        AND c.check_out_time != ''
+                                                )
+                                    AND l.encounterId = e.encounterId
+                                    AND l.account = lg.account
+                                    AND lg.code = l.billcode
+                                    AND la.ACCOUNT = l.account
+                                    AND lg.ACTUAL_CODE IN ('{%%PROCEDURE_CODES_CONSULTANT_REPORT%%}')
+                                    AND FROM_UNIXTIME(c.starttime) >= '{%%START_DATE%%}'
+                                    AND c.OWNER = '{%%PROVIDER_ID%%}' AND c.check_in_time != '' AND c.check_out_time != ''
+                                ]]>
+			</Query>
+		</Queries>
+	</Measure>
+        <Measure id="155v3" >
+		<Queries >
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                    Select * from 155_temp where Code_System = '{%%Code_System%%}'
+                                ]]>
+			</Query>
+			<Query type ="SNOMEDCT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                    Select * from 155_temp where Code_System = '{%%Code_System%%}'
+                                ]]>
+			</Query>
+			<Query type ="LOINC" spCheck="false" containsParam="false">
+				<![CDATA[
+                                ]]>
+			</Query>
+		</Queries>
+	</Measure>
+	<Measure id="88v2" >
+		<Queries >
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[Query step 1]]>
+			</Query>
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[Query step 2]]>
+			</Query>
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[Query step 3]]>
+			</Query>
+		</Queries>
+	</Measure>
+        <Provider>
+            <Query type ="CPT" spCheck="false" containsParam="false">
+		<![CDATA[
+                    SELECT * FROM 155_temp;
+                ]]>
+            </Query>
+        </Provider>
+</eMeasures>

@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<eMeasure>
+	<Measure id="50v4">
+		<title><![CDATA[Closing the Referral Loop: Receipt of Specialist Report]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4c5d-0de2-014c-70a4a2690d14</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">A2D34316-B568-4B88-8B3F-B3F23E9ACECB</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">3C7AD04C-20C3-4A2F-8295-8E0050C7797A</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="68v5">
+		<title><![CDATA[Documentation of Current Medications in the Medical Record]]></title>
+		<versionNumber>5</versionNumber>
+		<versionSpecificMeasureID>40280381-4be2-53b3-014c-040de60d10e1</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="128v4">
+		<title><![CDATA[Anti-depressant Medication Management]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4de7-db4d-014d-e80fb801009e</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="169v4">
+		<title><![CDATA[Bipolar Disorder and Major Depression: Appraisal for alcohol or chemical substance use]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4cc2-8ffd-014c-d841bbd9082d</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="159v4">
+		<title><![CDATA[Depression Remission at Twelve Months]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4b9a-3825-014b-c1a59e160733</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="160v4">
+		<title><![CDATA[Depression Utilization of the PHQ-9 Tool]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4de7-db4d-014d-e932bb6c02d0</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="177v4">
+		<title><![CDATA[Child and Adolescent Major Depressive Disorder (MDD): Suicide Risk Assessment]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4c72-51df-014c-75b00a130105</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="161v4">
+		<title><![CDATA[Adult Major Depressive Disorder (MDD): Suicide Risk Assessment]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4b9a-3825-014b-c1fde24a07d4</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="127v4">
+		<title><![CDATA[Pneumococcal Vaccination Status for Older Adults]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>59657b9b-01bf-4979-a090-8534da1d0516</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="147v5">
+		<title><![CDATA[Preventive Care and Screening: Influenza Immunization]]></title>
+		<versionNumber>5</versionNumber>
+		<versionSpecificMeasureID>40280381-4be2-53b3-014c-13f567921f71</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="117v4">
+		<title><![CDATA[Childhood Immunization Status]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4be2-53b3-014c-056c3662131d</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="137v4">
+		<title><![CDATA[Initiation and Engagement of Alcohol and Other Drug Dependence Treatment]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4de7-db4d-014d-e88b64750209</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="2v5">
+		<title><![CDATA[Preventive Care and Screening: Screening for Clinical Depression and Follow-Up Plan]]></title>
+		<versionNumber>5</versionNumber>
+		<versionSpecificMeasureID>9a031e24-3d9b-11e1-8634-00237d5bf174</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="136v5">
+		<title><![CDATA[ADHD: Follow-Up Care for Children Prescribed Attention-Deficit/Hyperactivity Disorder (ADHD) Medication]]></title>
+		<versionNumber>5</versionNumber>
+		<versionSpecificMeasureID>40280381-4de7-db4d-014d-e8910d540228</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="69v4">
+		<title><![CDATA[Preventive Care and Screening: Body Mass Index (BMI) Screening and Follow-Up Plan]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4de7-db4d-014d-e8de93d4027d</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="155v4">
+		<title><![CDATA[Weight Assessment and Counseling for Nutrition and Physical Activity for Children and Adolescents]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4de7-db4d-014d-e877328b01dd</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+	<Measure id="138v4">
+		<title><![CDATA[Preventive Care and Screening: Tobacco Use: Screening and Cessation Intervention]]></title>
+		<versionNumber>4</versionNumber>
+		<versionSpecificMeasureID>40280381-4c18-79df-014c-2dfa25f60c0e</versionSpecificMeasureID>
+		<initialPatientPopulationID multiple="false"
+			none="false">
+			<item name="First">DC87C081-5272-4E9A-B10A-F607FCEB560B</item>
+		</initialPatientPopulationID>
+		<numeratorID multiple="false" none="true">
+			<item name="First">14a01d7a-b936-4148-889f-c9b1a8b3d8a3</item>
+		</numeratorID>
+		<denominatorPopulationID multiple="false"
+			none="false">
+			<item name="First">169025B4-2133-44F9-9879-9014A2028C81</item>
+		</denominatorPopulationID>
+		<denominatorExclusionsID multiple="false"
+			none="true">
+			<item></item>
+		</denominatorExclusionsID>
+		<denominatorExceptionsID multiple="false"
+			none="false">
+			<item name="First">6c8d1f46-3a00-4b7b-bafa-a2fe49499ae2</item>
+		</denominatorExceptionsID>
+	</Measure>
+</eMeasure>

@@ -1,0 +1,87 @@
+<style>
+.my-drop-zone {
+	border: dotted 3px lightgray;
+}
+
+.nv-file-over {
+	border: dotted 3px red;
+} /* Default class applied to drop zones on over */
+.another-file-over-class {
+	border: dotted 3px green;
+}
+
+html, body {
+	height: 100%;
+}
+</style>
+
+<br>
+        <div id="container" ng-controller="AttachmentCtrl" nv-file-drop="" uploader="uploader" filters="queueLimit, customFilter">
+	<div id="loginbox" style=""
+		class="mainbox col-md-8">
+		<div class="panel panel-default" style="width: 700px;">
+			<div class="panel-heading"
+				style="background: #012b72; color: #FFFFFF">
+				<h4>Import Files</h4>
+			</div>
+			<div class="panel-body">
+			
+
+                    <div ng-show="uploader.isHTML5">
+                        <!-- 3. nv-file-over uploader="link" over-class="className" -->
+                        <div class="well my-drop-zone" nv-file-over="" uploader="uploader">
+                            Drop Files here 
+                        </div>
+                    </div>
+
+                    <!-- Example: nv-file-select="" uploader="{Object}" options="{Object}" filters="{String}" -->
+                    <input type="file" nv-file-select="" uploader="uploader" multiple  /><br/>
+                   
+                </div>
+                <div  style="width:100% ;margin-bottom: 40px">
+
+<!--                     <p>Queue length: {{ uploader.queue.length }}</p> -->
+
+                    <table class="table"  ng-hide=" uploader.queue.length == 0">
+                        <thead>
+                            <tr>
+                                <th width="50%">Name</th>
+                                <th ng-show="uploader.isHTML5">Size</th>
+                                <th ng-show="uploader.isHTML5">Progress</th>
+                                <th>Status</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in uploader.queue">
+                                <td><strong>{{ item.file.name }}</strong></td>
+                                <td ng-show="uploader.isHTML5" nowrap>{{ item.file.size/1024/1024|number:2 }} MB</td>
+                                <td ng-show="uploader.isHTML5">
+                                    <div class="progress" style="margin-bottom: 0;">
+                                        <div class="progress-bar" role="progressbar" ng-style="{ 'width': item.progress + '%' }"></div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <span ng-show="item.isSuccess"><i class="glyphicon glyphicon-ok"></i></span>
+                                    <span ng-show="item.isCancel"><i class="glyphicon glyphicon-ban-circle"></i></span>
+                                    <span ng-show="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
+                                </td>
+                                <td nowrap>
+                                     <button type="button" class="btn btn-success btn-xs" ng-click="item.upload()" ng-disabled="item.isReady || item.isUploading || item.isSuccess">
+                                       <span class="glyphicon glyphicon-upload"></span> Upload
+                                   </button>
+                                   <button type="button" class="btn btn-warning btn-xs" ng-click="item.cancel()" ng-disabled="!item.isUploading">
+                                       <span class="glyphicon glyphicon-ban-circle"></span>
+                                   </button>
+                                   <button type="button" class="btn btn-danger btn-xs" ng-click="item.remove(); removeItem(item.file.rowID);">
+                                       <span class="glyphicon glyphicon-trash"></span>
+                                   </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+  </div>  </div>
+            </div>

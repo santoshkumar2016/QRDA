@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<eMeasures>
+	<Measure id="68v4" >
+		<Queries >
+                        <Query type="encounter" section="common" multiple="false" none="false" >
+                            <item name="First">
+				<![CDATA[
+                                 SELECT MIN(`Start_Date`) As `FirstEncounter`, max(`Start_Date`) As `LastEncounter` FROM `68_temp` group by `MeasureID` 
+                                ]]>
+                            </item>                            
+			</Query>
+			<Query type ="total" section="ipp" multiple="false" none="false" >
+                            <item name="First">
+				<![CDATA[
+                                 Select count(*) as `Total` from 68_temp
+                                ]]>
+                            </item>                            
+			</Query>
+			<Query type ="race" section="ipp" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                 SELECT `Patient_Race_Code` as `Code`, `Patient_Race_Name` as `Name`, count(`Patient_Race_Name`) as `Total` FROM `68_temp` group by `Patient_Race_Name` 
+                                ]]>
+                            </item>                            
+			</Query>
+			<Query type ="ethnicity" section="ipp" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                 SELECT `Patient_Ethnicity_Code` as `Code`, `Patient_Ethnicity_Name` as `Name`, count(`Patient_Ethnicity_Name`) as `Total` FROM `68_temp` group by `Patient_Ethnicity_Name`    
+                                ]]>
+                            </item>                            
+			</Query>
+                        <Query type ="gender" section="ipp" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                    SELECT `Patient_Gender_Code` as `Code`, `Patient_Gender_Name` as `Name`, count(`Patient_Gender_Code`) as `Total` FROM `68_temp` group by `Patient_Gender_Code`
+                                ]]>
+                            </item>                            
+			</Query>
+                        <Query type ="payer" section="ipp" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                    SELECT `PayerName` as `Code`, 'Other' as `Name`, '20130101' As `low`, '20131231' as `high`, count(`MeasureID`) as `Total` FROM `68_temp` group by `MeasureID`
+                                ]]>
+                            </item>                            
+			</Query>
+                        <Query type ="total" section="demon" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                 Select count(*) as `Total` from 68_temp
+                                ]]>
+                            </item>
+			</Query>
+			<Query type ="race" section="demon" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                 SELECT `Patient_Race_Code` as `Code`, `Patient_Race_Name` as `Name`, count(`Patient_Race_Name`) as `Total` FROM `68_temp` group by `Patient_Race_Name` 
+                                ]]>
+                            </item>
+			</Query>
+			<Query type ="ethnicity" section="demon" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                 SELECT `Patient_Ethnicity_Code` as `Code`, `Patient_Ethnicity_Name` as `Name`, count(`Patient_Ethnicity_Name`) as `Total` FROM `68_temp` group by `Patient_Ethnicity_Name`    
+                                ]]>
+                            </item>
+			</Query>
+                        <Query type ="gender" section="demon" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                    SELECT `Patient_Gender_Code` as `Code`, `Patient_Gender_Name` as `Name`, count(`Patient_Gender_Code`) as `Total` FROM `68_temp` group by `Patient_Gender_Code`
+                                ]]>
+                            </item>
+			</Query>
+                        <Query type ="payer" section="demon" multiple="false" none="false">
+                            <item name="First">
+				<![CDATA[
+                                    SELECT `PayerName` as `Code`, 'Other' as `Name`, '20130101' As `low`, '20131231' as `high`, count(`MeasureID`) as `Total` FROM `68_temp` group by `MeasureID`
+                                ]]>
+                            </item>
+			</Query>
+		</Queries>
+	</Measure>
+        <Measure id="50v3" >
+		<Queries >
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                    
+                                ]]>
+			</Query>
+			<Query type ="SNOMEDCT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                
+                                ]]>
+			</Query>
+			<Query type ="LOINC" spCheck="false" containsParam="false">
+				<![CDATA[
+                                        
+                                ]]>
+			</Query>
+		</Queries>
+	</Measure>
+        <Measure id="155v3" >
+		<Queries >
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                    Select * from 155_temp where Code_System = '{%%Code_System%%}'
+                                ]]>
+			</Query>
+			<Query type ="SNOMEDCT" spCheck="false" containsParam="false">
+				<![CDATA[
+                                    Select * from 155_temp where Code_System = '{%%Code_System%%}'
+                                ]]>
+			</Query>
+			<Query type ="LOINC" spCheck="false" containsParam="false">
+				<![CDATA[
+                                ]]>
+			</Query>
+		</Queries>
+	</Measure>
+	<Measure id="88v2" >
+		<Queries >
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[Query step 1]]>
+			</Query>
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[Query step 2]]>
+			</Query>
+			<Query type ="CPT" spCheck="false" containsParam="false">
+				<![CDATA[Query step 3]]>
+			</Query>
+		</Queries>
+	</Measure>
+        <Provider>
+            <Query type ="CPT" spCheck="false" containsParam="false">
+		<![CDATA[
+                    SELECT * FROM 155_temp;
+                ]]>
+            </Query>
+        </Provider>
+</eMeasures>

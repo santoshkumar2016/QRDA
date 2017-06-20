@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Countries>
+	<Country importance="1">
+		<Country_Name>Spain</Country_Name>
+		<Country_Capital>Madrid</Country_Capital>
+		<Country_Population>1000</Country_Population>
+	</Country>
+	<Country importance="2">
+		<Country_Name>USA</Country_Name>
+		<Country_Capital>Washington</Country_Capital>
+		<Country_Population>2000</Country_Population>
+	</Country>
+	<Country importance="3">
+		<Country_Name>Japan</Country_Name>
+		<Country_Capital>Tokyo</Country_Capital>
+		<Country_Population>3000</Country_Population>
+	</Country>
+</Countries>

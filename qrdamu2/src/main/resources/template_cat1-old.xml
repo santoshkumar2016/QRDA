@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Template>
+<QRDA>
+<![CDATA[
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="urn:hl7-org:v3"
+ xmlns:voc="urn:hl7-org:v3/voc"
+ xmlns:sdtc="urn:hl7-org:sdtc">  
+    <!-- QRDA Header -->
+    <realmCode code="US"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+    <!-- US Realm Header (V2)  -->
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2014-06-09" />
+  <!-- QRDA Category I Framework (V2) -->
+  <templateId root="2.16.840.1.113883.10.20.24.1.1" extension="2014-12-01" />
+  <!-- QDM-Based QRDA (V2) -->
+  <templateId root="2.16.840.1.113883.10.20.24.1.2" extension="2014-12-01" />
+    <!-- This is the globally unique identifier for this QRDA document -->
+    <id root="{%%GUID%%}"/>
+    <!-- QRDA document type code -->
+    <code code="55182-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Quality Measure Report"/>
+    <title>QRDA Incidence Report</title>
+    <!-- This is the document creation time -->
+    <effectiveTime value="{%%EFFECTIVE_TIME%%}"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="en"/>
+    <!-- reported patient -->
+    <recordTarget>
+        <patientRole>
+			<!-- This is the patient's Medical HIC number -->
+			<id extension="{%%HICNumber%%}" root="2.16.840.1.113883.4.572" />
+            <id extension="{%%idExtension%%}" root="2.16.840.1.113883.3.1257"/>
+            <addr use="{%%addrUse%%}">
+                <streetAddressLine>{%%streetAddressLine%%}</streetAddressLine>
+                <city>{%%city%%}</city>
+                <state>{%%state%%}</state>
+                <postalCode>{%%postalCode%%}</postalCode>
+                <country>{%%country%%}</country>
+            </addr>
+            <telecom use="{%%telecomUse%%}" value="{%%telecomValue%%}"/>
+            <patient>
+                <name>
+                    <given>{%%nameGiven%%}</given>
+                    <family>{%%nameFamily%%}</family>
+                </name>
+                <administrativeGenderCode code="{%%administrativeGenderCodeCode%%}" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender"/>
+                <birthTime value="{%%birthTime%%}"/>
+                <raceCode code="{%%raceCodeCode%%}" displayName="{%%raceCodeDisplayName%%}" codeSystemName="CDC Race and Ethnicity" codeSystem="2.16.840.1.113883.6.238"/>
+                <ethnicGroupCode code="{%%ethnicGroupCodeCode%%}" displayName="{%%ethnicGroupCodeDisplayName%%}" codeSystemName="CDC Race and Ethnicity" codeSystem="2.16.840.1.113883.6.238"/>
+                <languageCommunication>
+                    <templateId root="2.16.840.1.113883.3.88.11.83.2" assigningAuthorityName="HITSP/C83"/>
+                    <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.1" assigningAuthorityName="IHE/PCC"/>
+                    <languageCode code="en-us"/>
+                </languageCommunication>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <!-- Example of an author who is a device -->
+    <author>
+        <time value="{%%authorTime%%}"/>
+        <assignedAuthor>
+            <!-- id extension="Cypress" root="2.16.840.1.113883.19.5"/ -->
+            <!-- NPI -->
+            <id extension="{%%authorIdExtension%%}" root="2.16.840.1.113883.4.6"/>
+            <addr>
+                <streetAddressLine>{%%authorStreetAddressLine%%}</streetAddressLine>
+                <city>{%%authorCity%%}</city>
+                <state>{%%authorState%%}</state>
+                <postalCode>{%%authorPostalCode%%}</postalCode>
+                <country>{%%authorCountry%%}</country>
+            </addr>
+            <telecom use="{%%authorTelecomUse%%}" value="{%%authorTelecomValue%%}"/>
+            <assignedAuthoringDevice>
+                <manufacturerModelName>{%%manufactureModelName%%}</manufacturerModelName >
+                <softwareName>{%%softwareName%%}</softwareName >
+            </assignedAuthoringDevice >
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+        <representedCustodianOrganization>
+            <id root="2.16.840.1.113883.19.5"/>
+            <name>{%%custodianName%%}</name>
+            <telecom use="{%%custodiantelecomUse%%}" value="{%%custodiantelecomValue%%}"/>
+            <addr>
+                <streetAddressLine>{%%custodianStreetAddressLine%%}</streetAddressLine>
+                <city>{%%custodianCity%%}</city>
+                <state>{%%custodianState%%}</state>
+                <postalCode>{%%custodianPostalCode%%}</postalCode>
+                <country>{%%custodianCountry%%}</country>
+            </addr>
+        </representedCustodianOrganization>
+      </assignedCustodian>
+    </custodian>
+    <legalAuthenticator>
+        <time value="{%%legalAuthenticatorTime%%}"/>
+        <signatureCode code="S"/>
+        <assignedEntity>
+            <id root="{%%GUID%%}"/>
+            <addr>
+                <streetAddressLine>{%%legalAuthenticatorStreetAddressLine%%}</streetAddressLine>
+                <city>{%%legalAuthenticatorCity%%}</city>
+                <state>{%%legalAuthenticatorState%%}</state>
+                <postalCode>{%%legalAuthenticatorPostalCode%%}</postalCode>
+                <country>{%%legalAuthenticatorCountry%%}</country>
+            </addr>
+            <telecom use="{%%legalAuthenticatorTelecomUse%%}" value="{%%legalAuthenticatorTelecomValue%%}"/>
+            <assignedPerson>
+                <name>
+                    <given>{%%legalAuthenticatorGiven%%}</given>
+                    <family>{%%legalAuthenticatorFamily%%}</family>
+                </name>
+            </assignedPerson>
+            <representedOrganization>
+                <id root="2.16.840.1.113883.19.5"/>
+                <name>{%%legalAuthenticatorName%%}</name>
+            </representedOrganization>
+        </assignedEntity>
+    </legalAuthenticator>
+    <documentationOf typeCode="DOC">
+        <serviceEvent classCode="PCPR"> <!-- care provision -->
+            <!-- No provider data found in the patient record
+             putting in a fake provider -->
+            <effectiveTime>
+                <low value="{%%documentationOfEffectiveTimeLow%%}"/>
+                <high value="{%%documentationOfEffectiveTimeHigh%%}"/>
+            </effectiveTime>
+            <!-- You can include multiple performers, each with an NPI, TIN, CCN. -->
+            <performer typeCode="PRF"> 
+                <time>
+                    <low value="{%%documentationOfPerformerTimeLow%%}"/>
+                    <high value="{%%documentationOfPerformerTimeHigh%%}"/>
+                </time>
+                <assignedEntity>
+                    <!-- This is the provider NPI -->
+                    <id root="2.16.840.1.113883.4.6" extension="{%%documentationOfNPI%%}" /> 
+                    <representedOrganization>
+                        <!-- This is the organization TIN -->
+                        <id root="2.16.840.1.113883.4.2" extension="{%%documentationOfTIN%%}" /> 
+                        <!-- This is the organization CCN -->
+                        <id root="2.16.840.1.113883.4.336" extension="{%%documentationOfCCN%%}" /> 
+                    </representedOrganization>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <!-- 
+                      *****************************************************************
+                      Measure Section
+                      *****************************************************************
+                    -->
+                    <!-- This is the templateId for Measure Section -->
+                    <templateId root="2.16.840.1.113883.10.20.24.2.2"/>
+                    <!-- This is the templateId for Measure Section QDM -->
+                    <templateId root="2.16.840.1.113883.10.20.24.2.3"/>
+                    <!-- This is the LOINC code for "Measure document". This stays the same for all measure section required by QRDA standard -->
+                    <code code="55186-1" codeSystem="2.16.840.1.113883.6.1"/>
+                    <title>Measure Section</title>
+                    <text>
+                        <table border="1" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>eMeasure Title</th>
+                                    <th>Version neutral identifier</th>
+                                    <th>eMeasure Version Number</th>
+                                    <th>Version specific identifier</th>
+                                </tr>
+                            </thead>
+                            <tbody>  
+                                <MEASUREDATA> Measure </MEASUREDATA>
+                            </tbody>
+                        </table>
+                    </text>
+                    <!-- 1..* Organizers, each containing a reference to an eMeasure -->  
+                    <entry>
+			            <organizer classCode="CLUSTER" moodCode="EVN">
+			              <!-- This is the templateId for Measure Reference -->
+			              <templateId root="2.16.840.1.113883.10.20.24.3.98"/>
+			              <!-- This is the templateId for eMeasure Reference QDM -->
+			              <templateId root="2.16.840.1.113883.10.20.24.3.97"/>
+			              <id extension="{%%measureVersionSpecificIdentifier%%}"/>
+			              <statusCode code="completed"/>
+			              <!-- Containing isBranch external references -->
+			              <reference typeCode="REFR">
+			                <externalDocument classCode="DOC" moodCode="EVN">
+			                  <!-- SHALL: This is the version specific identifier for eMeasure: QualityMeasureDocument/id it is a GUID-->
+			                  <id root="2.16.840.1.113883.4.738" extension="{%%measureVersionSpecificIdentifier%%}"/>
+			                  <!-- SHOULD This is the title of the eMeasure -->
+			                  <text>{%%measureTitle%%}</text>
+			                  <!-- SHOULD: setId is the eMeasure version neutral id  -->
+			                <!--  <setId root="{%%measureVersionNeutralIdentifier%%}"/> -->
+			                  <!-- This is the sequential eMeasure Version number -->
+			                  <versionNumber value="{%%measureVersionNumber%%}"/>                  
+			                </externalDocument>
+			              </reference>
+			            </organizer>
+			         </entry>         
+                </section>
+            </component>
+            <component>
+		        <section>
+		          <!-- This is the templateId for Reporting Parameters section -->
+		          <templateId root="2.16.840.1.113883.10.20.17.2.1"/>
+				  <templateId extension="2015-07-01" root="2.16.840.1.113883.10.20.17.2.1"/>
+		          <code code="55187-9" codeSystem="2.16.840.1.113883.6.1"/>
+		          <title>Reporting Parameters</title>
+		          <text>
+		            <list>
+		              <item>Reporting period: {%%formattedStartDate%%} - {%%formattedEndDate%%}</item>
+		            </list>
+		          </text>
+		          <entry typeCode="DRIV">
+		            <act classCode="ACT" moodCode="EVN">
+		              <!-- This is the templateId for Reporting Parameteres Act -->
+		              <templateId root="2.16.840.1.113883.10.20.17.3.8"/>
+					  <templateId extension="2015-07-01" root="2.16.840.1.113883.10.20.17.3.8"/>
+		              <id extension="{%%GUID%%}" />
+		              <code code="252116004" codeSystem="2.16.840.1.113883.6.96" displayName="Observation Parameters"/>
+		              <effectiveTime>
+		              	<low value="{%%startDate%%}"/>
+		                <high value="{%%endDate%%}"/>
+		              </effectiveTime>
+		            </act>
+		          </entry>
+		        </section>
+		    </component>
+		    <component>
+		        <section>
+		          <!-- This is the templateId for Patient Data section -->
+		          <templateId root="2.16.840.1.113883.10.20.17.2.4"/>
+				  <templateId extension="2014-12-01" root="2.16.840.1.113883.10.20.24.2.1"/>	
+				  <templateId extension="2015-07-01" root="2.16.840.1.113883.10.20.24.2.1"/>
+		          <code code="55188-7" codeSystem="2.16.840.1.113883.6.1"/>
+		          <title>Patient Data</title>
+		          <text>
+		
+		          </text>
+		          <ENTRY> Entry </ENTRY>     
+		       </section>
+     	    </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
+]]>
+</QRDA>
+<Encounter_Performed>
+<![CDATA[
+         <entry>
+             <encounter classCode="ENC" moodCode="EVN">
+                  <!--  Conforms to C-CDA R2 Encounter Activity (V2) template -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.49" extension="2014-06-09" />
+              <!-- Encounter Performed (V2) template -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.23" extension="2014-12-01" />
+                 <id root="{%%randomNumber%%}"/>
+                 <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+                 <text>{%%text%%}</text>
+                 <statusCode code="completed"/>
+                 <effectiveTime>
+                     <!-- We try to look for the admit/discharge times on the encounter if they are
+                      there. If not, we fall back to the typical start/end date. -->
+                     <low value='{%%startDate%%}'/>
+                     <high value='{%%endDate%%}'/>
+                 </effectiveTime>
+             </encounter>
+         </entry>
+]]>
+</Encounter_Performed>
+<Intervention_Performed>
+    <![CDATA[
+    <entry>
+        <act classCode="ACT" moodCode="EVN" >
+            <!-- Conforms to C-CDA R2 Planned Act (V2) template -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+              <!-- Intervention Recommended (V2) template -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.33" extension="2014-12-01" />
+          <id root="1.3.6.1.4.1.115" extension="{%%randomNumber%%}"/>
+          <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+          <text>{%%text%%}</text>
+          <statusCode code="completed"/>
+          <effectiveTime>
+            <low value='{%%startDate%%}'/>
+            <high value='{%%endDate%%}'/>
+          </effectiveTime>
+        </act>
+    </entry>
+    ]]>
+</Intervention_Performed>
+<Diagnosis_Active>
+    <![CDATA[
+    <entry>
+	 <!--Diagnosis active: Asthma [principal]-->
+            <act classCode="ACT" moodCode="EVN">
+              <!-- Conforms to C-CDA Problem Concern Act (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.3" extension="2014-06-09" />
+              <!-- Diagnosis Active Concern Act -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.121" extension="2014-12-01" />
+              <id root="ec8a6ff8-ed4b-4f7e-82c3-e98e58b45de7" />
+
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" displayName="Concern" />
+              <!-- The statusCode represents whether this is an active (active), inactive (suspended) or resolved (completed) diagnosis -->
+              <statusCode code="active" />
+              <effectiveTime>
+                 <!-- Attribute: admission datetime -->
+            <low value='{%%startDate%%}'/>
+            <!-- Attribute: discharge datetime -->
+            <high value='{%%endDate%%}'/>
+              </effectiveTime>
+			  
+		<entryRelationship typeCode="SUBJ">	  
+        <observation classCode="OBS" moodCode="EVN">
+           <!--  Problem observation template -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4" extension="2014-06-09" />
+                  <!--  Diagnosis active template -->
+                  <templateId root="2.16.840.1.113883.10.20.24.3.11" extension="2014-12-01" />
+          <id root="{%%randomNumber%%}"/>
+          <code code="29308-4" displayName="diagnosis" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" />
+          <text>{%%text%%}</text>
+          <statusCode code="completed"/>
+          <effectiveTime>
+            <!-- Attribute: admission datetime -->
+            <low value='{%%startDate%%}'/>
+            <!-- Attribute: discharge datetime -->
+            <high value='{%%endDate%%}'/>
+          </effectiveTime>  
+          <value code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}><originalText>{%%DisplayName%%}}</originalText>
+      </value>
+	  </observation>
+          </entryRelationship>
+        </act>
+      </entry>
+    ]]>
+</Diagnosis_Active>
+<Medication_Dispensed>
+    <![CDATA[
+    <entry>
+  <!--Medication dispensed -->
+  <supply classCode="SPLY" moodCode="EVN">
+    <!--  Medication Dispensed template -->
+    <templateId extension="2014-12-01" root="2.16.840.1.113883.10.20.24.3.45"/>
+    <!-- Medication Dispense template -->
+    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.18"/>
+    <id root="{%%randomNumber%%}"/>
+    <text>{%%text%%}</text>
+    <statusCode code="completed"/>
+    <effectiveTime xsi:type="IVL_TS">
+      <low value='{%%startDate%%}'/>
+      <high value='{%%endDate%%}'/>
+    </effectiveTime>
+    <product>
+      <manufacturedProduct classCode="MANU">
+        <!-- Medication Information (consolidation) template -->
+        <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.23"/>
+        <id root="{%%randomNumber%%}"/>
+        <manufacturedMaterial>
+          <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+        </manufacturedMaterial>
+      </manufacturedProduct>
+    </product>
+  </supply>
+</entry>
+    ]]>
+</Medication_Dispensed>
+<Medication_Active>
+    <![CDATA[
+    <entry>
+  <substanceAdministration classCode="SBADM" moodCode="EVN" >
+    <!-- Medication Activity (consolidation) template -->
+    <templateId extension="2014-06-09" root="2.16.840.1.113883.10.20.22.4.16"/>
+    <!-- Medication, Active template -->
+    <templateId extension="2014-12-01" root="2.16.840.1.113883.10.20.24.3.41"/>
+   <id root="1.3.6.1.4.1.115" extension="{%%randomNumber%%}"/>
+    <text>{%%text%%}</text>
+    <statusCode code="active"/> 
+    <effectiveTime xsi:type="IVL_TS">
+        <low value='{%%startDate%%}'/>
+        <high value='{%%endDate%%}'/>
+    </effectiveTime>
+    <consumable>
+      <manufacturedProduct classCode="MANU">
+        <!-- Medication Information (consolidation) template --> 
+        <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+        <id root="460dd050-0b0a-0134-4024-060846260b89"/>
+        <manufacturedMaterial>
+          <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+        </manufacturedMaterial>
+        <manufacturerOrganization>
+          <name>Medication Factory Inc.</name>
+        </manufacturerOrganization>
+      </manufacturedProduct>
+    </consumable>
+  </substanceAdministration>
+</entry>
+    ]]>
+</Medication_Active>
+<Procedure_Performed>
+    <![CDATA[
+                    <entry>
+                        <procedure classCode="PROC" moodCode="EVN" >
+                            <!-- Conforms to C-CDA R2 Procedure Activity Procedure (V2) -->
+							<templateId root="2.16.840.1.113883.10.20.22.4.14" extension="2014-06-09" />
+							<!-- Procedure Performed (V2) -->
+							<templateId root="2.16.840.1.113883.10.20.24.3.64" extension="2014-12-01" />
+                            <id root="{%%randomNumber%%}"/>
+                            <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText>
+                            </code>
+                            <text>{%%text%%}</text>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low value='{%%startDate%%}'/>
+                                <high value='{%%endDate%%}'/>
+                            </effectiveTime>
+                        </procedure>
+                    </entry>
+    ]]>
+</Procedure_Performed>
+<Medication_Order>
+    <![CDATA[
+    <entry>
+  <!--Medication Order -->
+  <substanceAdministration classCode="SBADM" moodCode="RQO" >
+    <!-- Conforms to C-CDA R2 Planned Medication Activity (V2) -->
+<templateId root="2.16.840.1.113883.10.20.22.4.42" extension="2014-06-09"/>
+<!-- Medication Order (V2) Template -->
+<templateId root="2.16.840.1.113883.10.20.24.3.47" extension="2014-12-01"/>
+    <id root="{%%randomNumber%%}"/>
+    <text>{%%text%%}</text>
+    <statusCode code="new"/>
+    <effectiveTime xsi:type="IVL_TS">
+      <low value='{%%startDate%%}'/>
+      <high value='{%%endDate%%}'/>
+    </effectiveTime>
+    <consumable>
+      <manufacturedProduct classCode="MANU">
+        <!-- Medication Information (consolidation) template -->
+        <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+        <id root="{%%randomNumber%%}"/>
+        <manufacturedMaterial>
+          <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+        </manufacturedMaterial>
+      </manufacturedProduct>
+    </consumable>
+  </substanceAdministration>
+</entry>
+    ]]>
+</Medication_Order>
+<Physical_Exam>
+    <![CDATA[
+    <entry>
+  <!-- Physical Exam Finding -->
+  <observation classCode="OBS" moodCode="EVN">
+     <!-- Conforms to C-CDA R2 Planned Observation (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.44" extension="2014-06-09" />
+              <!-- Physical Exam Recommeded (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.60" extension="2014-12-01" />
+    <id root="{%%randomNumber%%}"/>
+    <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>    
+    <text>{%%text%%}</text>
+    <statusCode code="completed"/>
+    <effectiveTime>
+      <low value='{%%startDate%%}'/>
+      <high value='{%%endDate%%}'/>
+    </effectiveTime>
+       <value xsi:type="PQ" value="{%%DataValue%%}" unit="{%%DataValueUnit%%}"/>
+  </observation>
+</entry>
+    ]]>
+</Physical_Exam>
+<Communication_From_Provider_to_Provider>
+    <![CDATA[
+    <entry>
+  <act classCode="ACT" moodCode="EVN" >
+    <!-- Communication from provider to provider -->
+    <templateId root="2.16.840.1.113883.10.20.24.3.4" extension="2014-12-01" />
+    <id root="{%%randomNumber%%}"/>
+    <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+    <text>Communication: From Provider to Provider: Consultant Report</text>
+    <statusCode code="completed"/>
+    <effectiveTime>
+      <low value='{%%startDate%%}'/>
+      <high value='{%%endDate%%}'/>
+    </effectiveTime>
+    <participant typeCode="AUT">
+      <participantRole classCode="ASSIGNED">
+        <code code="158965000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Medical Practitioner"/>
+      </participantRole>
+    </participant>
+    <participant typeCode="IRCP">
+      <participantRole classCode="ASSIGNED">
+        <code code="158965000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Medical Practitioner"/>
+      </participantRole>
+    </participant>
+  </act>
+</entry>
+    ]]>
+</Communication_From_Provider_to_Provider>
+<Medication_Administered>
+<![CDATA[  
+          <entry>
+            <act classCode="ACT" moodCode="EVN">
+              <!--Medication administered -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.42" extension="2014-12-01" />
+              <id root="{%%randomNumber%%}" />
+              <code code="416118004" displayName="Administration" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED-CT" />
+              <statusCode code="completed" />
+              <effectiveTime>
+               <low value='{%%startDate%%}'/>
+      <high value='{%%endDate%%}'/>
+              </effectiveTime>
+              <entryRelationship typeCode="COMP">
+                <substanceAdministration classCode="SBADM" moodCode="EVN">
+                  <!-- C-CDA R2 Medication Activity -->
+                  <templateId root="2.16.840.1.113883.10.20.22.4.16" extension="2014-06-09" />
+                  <id root="{%%randomNumber%%}" />
+                  <statusCode code="completed" />
+                  <effectiveTime xsi:type="IVL_TS">
+                   <low value='{%%startDate%%}'/>
+      <high value='{%%endDate%%}'/>
+                  </effectiveTime>
+                  <consumable>
+                    <manufacturedProduct classCode="MANU">
+                      <!-- Conforms to C-CDA R2 Medication Information (V2) -->
+                      <templateId root="2.16.840.1.113883.10.20.22.4.23" extension="2014-06-09" />
+                      <id root="{%%randomNumber%%}" />
+                      <manufacturedMaterial>
+                       <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+                      </manufacturedMaterial>
+                    </manufacturedProduct>
+                  </consumable>
+                </substanceAdministration>
+              </entryRelationship>
+             </act>
+          </entry>
+  ]]>
+</Medication_Administered>
+<Procedure_Order>
+<![CDATA[                                
+ <entry typeCode="DRIV">
+            <procedure classCode="PROC" moodCode="RQO">
+              <!-- Conforms to C-CDA R2 Planned Procedure (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.41" extension="2014-06-09" />
+              <!-- Procedure Order (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.63" extension="2014-12-01" />
+              <id root="{%%randomNumber%%}"/>
+              <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+              <text>Procedure, Order: Right hemicolectomy </text>
+              <statusCode code="active" />
+				<effectiveTime value="{%%startDate%%}" />
+            </procedure>
+          </entry>
+		  ]]>
+</Procedure_Order>
+<Intervention_Order>
+<![CDATA[  
+<entry>
+            <act classCode="ACT" moodCode="RQO">
+              <!-- Conforms to C-CDA R2 Planned Act (V2) template -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.39" extension="2014-06-09" />
+              <!-- Intervention Order (V2) template -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.31" extension="2014-12-01" />
+              <id root="{%%randomNumber%%}"/>
+              <!-- Intervention -->
+              <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+              <statusCode code="active" />
+              <effectiveTime value="{%%startDate%%}" />
+            </act>
+          </entry>
+		  ]]>
+</Intervention_Order>
+<Risk_Assessment>
+<![CDATA[  
+ <entry typeCode="DRIV">
+            <!-- Risk Category Assessment (V2) -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Conforms to C-CDA R2 Assessment Scale Observation -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.69" />
+              <!-- Risk Category Assessment (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.69" extension="2014-12-01" />
+              <id root="{%%randomNumber%%}"/>
+               <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+              <statusCode code="completed" />
+              <effectiveTime>
+                <low value='{%%startDate%%}'/>
+                     <high value='{%%endDate%%}'/>
+              </effectiveTime>
+              <!-- QDM Attribute: Result -->
+              <value xsi:type="INT" value="{%%DataValue%%}" />
+              <!-- QDM Attribute: Patient Preference -->
+            </observation>
+          </entry>
+		  ]]>
+</Risk_Assessment>
+<Medication_Intolerance>
+<![CDATA[
+<entry>
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Conforms to C-CDA R2 Allergy - Intolerance Observation (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.22.4.7" extension="2014-06-09" />
+              <!-- Medication Intolerance -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.46" extension="2014-12-01" />
+              <id root="{%%randomNumber%%}"/>
+              <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+              <statusCode code="completed" />
+              <effectiveTime>
+                 <low value='{%%startDate%%}'/>
+                     <high value='{%%endDate%%}'/>
+              </effectiveTime>
+              <value xsi:type="CD" code="59037007" displayName="Drug intolerance" codeSystem="2.16.840.1.113883.6.96"
+                codeSystemName="SNOMED CT" />
+              <participant typeCode="CSM">
+                <participantRole classCode="MANU">
+                  <playingEntity classCode="MMAT">
+                    <!-- Medication -->
+                    <code code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}"><originalText>{%%DisplayName%%}</originalText></code>
+                  </playingEntity>
+                </participantRole>
+              </participant>            
+            </observation>
+          </entry>
+          
+]]>
+</Medication_Intolerance>
+<Procedure_Intolerance>
+<![CDATA[
+ <entry>
+            <!-- Procedure Intolerance (V2) -->
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Conforms to Act Intolerance or Adverse Event Observation (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.104" extension="2014-12-01" />
+              <!-- Procedure Intolerance (V2) -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.62" extension="2014-12-01" />
+              <id root="{%%randomNumber%%}"/>
+              <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode" displayName="Assertion" />
+              <statusCode code="completed" />
+              <effectiveTime>
+               <low value='{%%startDate%%}'/>
+                     <high value='{%%endDate%%}'/>
+              </effectiveTime>
+              <!-- QDM Attribute: Ordinality -->
+              <!-- The following code may not be correct and may change in the future (if 
+                  the relevant eMeasure is changed -->
+              <value code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}" displayName=""{%%DisplayName%%}"/>
+				 </observation>
+          </entry>
+]]>
+</Procedure_Intolerance>
+<Patient_Characteristic>
+<![CDATA[
+ <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="EVN">
+              <!-- Patient Characteristic Observation Assertion -->
+              <templateId root="2.16.840.1.113883.10.20.24.3.103" extension="2014-12-01" />
+              <id root="{%%randomNumber%%}"/>
+              <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4" />
+              <statusCode code="completed" />
+              <effectiveTime>
+                 <low value='{%%startDate%%}'/>
+                     <high value='{%%endDate%%}'/>
+              </effectiveTime>
+              <!-- Patient Characteristic -->
+              <value code="{%%code%%}" codeSystem="{%%codeSystem%%}" sdtc:valueSet="{%%valueSet%%}" displayName=""{%%DisplayName%%}"/>
+            </observation>
+          </entry>
+		  ]]>
+</Patient_Characteristic>
+
+
+<MEASUREDATA><![CDATA[                                
+                                <tr> <!-- This section will repeat if the patient falls into multiple measure -->
+                                    <td>{%%measureTitle%%}</td>
+                                    <td>{%%measureVersionNeutralIdentifier%%}</td>
+                                    <td>{%%measureVersionNumber%%}</td>
+                                    <td>{%%measureVersionSpecificIdentifier%%}</td>    
+                                </tr>
+ ]]>                                
+</MEASUREDATA>
+</Template>
+

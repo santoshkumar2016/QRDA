@@ -1,0 +1,27 @@
+<?xml version="1.0" ?> 
+<XmlImportConfig>
+    <indexfields value="Corporate - Finance Documents">
+        <indexlist>
+            <index name="Field1" value="FDEPTNAME"/>
+            <index name="Field2" value="FDEPTGRP"/>
+            <index name="Field3" value="FDOCAREA"/>
+            <index name="Field4" value="FDOCTYPE"/>
+            <index name="Field10" value="RECDISPCODE"/>
+            <index name="Field11" value="RECMODIFYDATE"/>
+            <index name="Field12" value="RECDISPDATE"/>  
+            <index name="Field15" value="FILECMIDKEY"/>  
+        </indexlist>
+    </indexfields>
+    <indexfields value="Corporate - Governance Documents">
+        <indexlist>
+            <index name="Field1" value="GDEPTNAME"/>
+            <index name="Field2" value="GDEPTGRP"/>
+            <index name="Field3" value="GDOCAREA"/>
+            <index name="Field4" value="GDOCTYPE"/>
+            <index name="Field10" value="RECDISPCODE"/>
+            <index name="Field11" value="RECMODIFYDATE"/>
+            <index name="Field12" value="RECDISPDATE"/>  
+            <index name="Field15" value="FILECMIDKEY"/>  
+        </indexlist>
+  </indexfields>
+</XmlImportConfig>
